@@ -57,6 +57,8 @@
 .discord-card {
   display: flex;
   position: relative;
+  gap: 1rem;
+  margin-top: 5rem;
 }
 .discord-card-title {
   grid-column-gap: 0.5rem;
