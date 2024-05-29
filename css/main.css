@@ -1917,7 +1917,7 @@ textarea.w-select {
   --swatch--tbackground-2: #191919;
   --swatch--outershadow-1: rgba(255, 174, 52, 0.4);
   --dark--outershadow: var(--swatch--outershadow-2);
-  --swatch--outershadow-2: rgba(0, 164, 221, 0.4);
+  --swatch--outershadow-2: rgba(221, 181, 0, 0.4);
 }
 .w-layout-grid {
   grid-row-gap: 16px;
@@ -7664,29 +7664,22 @@ a {
   grid-template-columns: 1fr;
 }
 .countdown-content {
-  z-index: 2;
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
-  text-align: center;
+  text-align: left;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
-  max-width: 640px;
   display: flex;
-  position: relative;
 }
 .countdown-block {
   z-index: 2;
   border: 1px solid var(--color--outershadow);
   background-color: var(--color--tbackground);
-  background-image: url(https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65dc22dcaab3c30198109abb_discord_new_horizontal_one.svg),
-    url(https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65dc22ebf28bb13639e3db0a_discord_new_normal.svg);
   background-position: 0%, 100%;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, auto;
   border-radius: 24px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   max-width: 1300px;
   margin-left: auto;
@@ -7695,6 +7688,7 @@ a {
   display: flex;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
 }
 .countdown-block.cta_join {
   background-image: linear-gradient(
@@ -11206,8 +11200,6 @@ a {
     grid-row-gap: 24px;
   }
   .countdown-block {
-    background-image: url(https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65dc22dcaab3c30198109abb_discord_new_horizontal_one.svg),
-      url(https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65dc22ebf28bb13639e3db0a_discord_new_normal.svg);
     background-position: 5%, 95%;
     background-repeat: no-repeat, no-repeat;
     background-size: 100px, 100px;

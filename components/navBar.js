@@ -230,6 +230,7 @@ document.getElementById("nav-bar").innerHTML = `
               ><div
                 data-w-id="7193df9e-8d18-5363-b7cd-a01f00b3d46a"
                 class="toggle"
+                id="toggle-btn"
               >
                 <div class="toggle-circle">
                   <div

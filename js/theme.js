@@ -117,3 +117,36 @@ function colorModeToggle() {
   });
 }
 colorModeToggle();
+
+document.addEventListener("DOMContentLoaded", () => {
+  let toggleButton = document.getElementById("toggle-btn");
+  let discordRight = document.querySelector(".discord-gradient-right");
+  let discordBottom = document.querySelector(".discord-gradient-bottom");
+  let headingText = document.querySelectorAll(".heading-text");
+  let d_pera_one = document.querySelector("#d-pera-one");
+  let d_pera_two = document.querySelector("#d-pera-two");
+  let isOriginalStyle = true;
+
+  toggleButton.onclick = () => {
+    if (isOriginalStyle) {
+      discordRight.style.backgroundImage =
+        "linear-gradient(to right, rgba(20, 21, 24, 0), #18191a 45%)";
+      discordBottom.style.backgroundImage =
+        "linear-gradient(to right, rgba(20, 21, 24, 0), #18191a 45%)";
+      headingText.forEach((heading) => {
+        heading.style.color = "#ffffff";
+      });
+      d_pera_one.style.color = "#ffffff";
+    } else {
+      discordRight.style.backgroundImage =
+        "linear-gradient(to right, rgba(20, 21, 24, 0), #ececec 45%)";
+      discordBottom.style.backgroundImage =
+        "linear-gradient(to right, rgba(20, 21, 24, 0), #ececec 45%)";
+      headingText.forEach((heading) => {
+        heading.style.color = "#000000";
+      });
+      d_pera_two.style.color = "#000000";
+    }
+    isOriginalStyle = !isOriginalStyle;
+  };
+});
