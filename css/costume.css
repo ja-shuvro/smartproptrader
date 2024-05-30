@@ -1,56 +1,5 @@
-:root {
-  --color--background: var(--swatch--dark);
-  --color--text: var(--swatch--light);
-  --z-all--blue-2: #f6e949;
-  --z-all--black: #222;
-  --z-all--white: white;
-  --color--colorone: var(--swatch--linear-1);
-  --color--colortwo: var(--swatch--linear-2);
-  --color--outershadow: var(--swatch--outershadow-1);
-  --z-all--blue-3: #f0e571;
-  --z-all--blue-1: #ada335;
-  --swatch--linear-1: #ffd700;
-  --z-all--dark_background: #28292b;
-  --z-all--new: #bababc;
-  --color--tbackground: var(--swatch--tbackground-2);
-  --z-all--light-background: #ececec;
-  --z-all--light_outline: var(--swatch--outershadow-1);
-  --z-all--light-text: #0c0d12;
-  --z-all--blue-4: #706811;
-  --z-all--box-shadow: rgba(81, 81, 81, 0.06);
-  --z-all--lines: rgba(236, 236, 236, 0.12);
-  --z-all--grey-light: #acb8c3;
-  --z-all--gainsboro: #e0e0e0;
-  --z-all--orange: #d4af37;
-  --z-all--charcole: #696748;
-  --z-all--chocolate: #d4af37;
-  --z-all--dark_background_transparent: #0e111aa6;
-  --z-all--secondary_transparent_border: #eea41bb3;
-  --z-all--transparent: rgba(255, 255, 255, 0);
-  --dark--colorone: var(--swatch--linear-3);
-  --dark--colortwo: var(--swatch--linear-4);
-  --color--toggle-offset: 0rem;
-  --dark--toggle-offset: 1.5rem;
-  --swatch--linear-2: #2e2e60;
-  --dark--text: var(--swatch--dark);
-  --z-all--grey: #515151;
-  --z-all--color-2: #cec458;
-  --dark--background: var(--swatch--light);
-  --z-all--background: #0e111a;
-  --swatch--light: #ececec;
-  --swatch--dark: #191919;
-  --z-all--brand-1: #ccbb03;
-  --z-all--brand-2: #d4af37;
-  --swatch--linear-3: #c4b405;
-  --swatch--linear-4: #dfcc02;
-  --dark--tbackground: var(--swatch--tbackground-1);
-  --swatch--tbackground-1: white;
-  --swatch--tbackground-2: #191919;
-  --swatch--outershadow-1: rgba(255, 174, 52, 0.4);
-  --dark--outershadow: var(--swatch--outershadow-2);
-  --swatch--outershadow-2: rgba(221, 181, 0, 0.4);
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 .lottie_hero img {
   width: 100%;
   height: 100%;
@@ -460,4 +409,21 @@ img {
 }
 .everything-in-one-place {
   box-shadow: 0 8px 30px rgba(224, 109, 33, 0.25);
+  border-radius: 15px;
+  padding-top: 2.5rem;
+}
+
+.c-logo-text {
+  background: linear-gradient(
+    135deg,
+    var(--color--colorone),
+    var(--color--colortwo)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Cookie", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
 }
