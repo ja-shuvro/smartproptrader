@@ -458,3 +458,6 @@ img {
 .swiper-button-prev {
   color: var(--color--colorone) !important;
 }
+.everything-in-one-place {
+  box-shadow: 0 8px 30px rgba(224, 109, 33, 0.25);
+}
