@@ -8,41 +8,14 @@
 >
   <head>
     <meta charset="utf-8" />
-    <title>Payouts | Smart Prop Trader</title>
-    <meta
-      content="Smart Prop Traders offers fast and reliable payouts to our traders. Check out some of our success story videos."
-      name="description"
-    />
-    <meta content="Payouts | Smart Prop Trader" property="og:title" />
-    <meta
-      content="Smart Prop Traders offers fast and reliable payouts to our traders. Check out some of our success story videos."
-      property="og:description"
-    />
-    <meta
-      content="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/6622a0269275fd99ca774489_Open_Graph_Payouts.png"
-      property="og:image"
-    />
-    <meta content="Payouts | Smart Prop Trader" property="twitter:title" />
-    <meta
-      content="Smart Prop Traders offers fast and reliable payouts to our traders. Check out some of our success story videos."
-      property="twitter:description"
-    />
-    <meta
-      content="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/6622a0269275fd99ca774489_Open_Graph_Payouts.png"
-      property="twitter:image"
-    />
-    <meta property="og:type" content="website" />
-    <meta content="summary_large_image" name="twitter:card" />
+    <title>Payouts | Gold Fund Trader</title>
+
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta
       content="zpE_1y0-rG0s_zOMbI1SCBAK0FNf-dPtG09tU2hULzU"
       name="google-site-verification"
     />
-    <link
-      href="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/css/smart-prop-trader.webflow.988ad3d51.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="./css/main.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript">
       !(function (o, c) {
         var n = c.documentElement,
@@ -67,82 +40,25 @@
       async=""
       src="https://www.googletagmanager.com/gtag/js?id=G-JPKH3WF053"
     ></script>
-    <script type="text/javascript">
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("set", "developer_id.dZGVlNj", true);
-      gtag("config", "G-JPKH3WF053");
-    </script>
+    <script type="text/javascript" src="./js/dataLayer.js"></script>
     <!-- Light/Dark Toggle JS -->
     <script
       tr-color-vars="background,tbackground,text,colorone,outershadow, colortwo, toggle-offset"
       duration="0.5"
       ease="power1.out"
-      src="https://cdn.jsdelivr.net/gh/timothydesign/scripts@v1.0.1/dark-mode-toggle.js"
+      src="./js/theme.js"
     ></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <style>
-      /*width*/
-      ::-webkit-scrollbar {
-        background: transparent;
-        width: 12px;
-      }
-      /*thumb*/
-      ::-webkit-scrollbar-thumb {
-        background: linear-gradient(90deg, #c5161e 0%, #fbc024 100%);
-        border-style: none;
-        filter: blur(10px);
-        border-radius: 8px;
-      }
-      /*thumb hover*/
-      ::-webkit-scrollbar-thumb:hover {
-        background: linear-gradient(90deg, #1b5aa0 0%, #0080b7 100%);
-      }
-      /*thumb pressed*/
-      ::-webkit-scrollbar-thumb:active {
-        background: linear-gradient(90deg, #1b5aa0 0%, #0080b7 100%);
-      }
-
-      /*animated title tags*/
-      .animated-tags {
-        background-image: -webkit-linear-gradient(125deg, #c5161e, #fbc024);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-animation: hue 8s infinite linear;
-      }
-
-      @-webkit-keyframes hue {
-        from {
-          -webkit-filter: hue-rotate(0deg);
-        }
-        to {
-          -webkit-filter: hue-rotate(-180deg);
-        }
-      }
-    </style>
-
     <!-- Finsweet Cookie Consent -->
-    <script
-      async
-      src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js"
-      fs-cc-mode="opt-in"
-    ></script>
-    <script type="text/javascript">
-      window.__WEBFLOW_CURRENCY_SETTINGS = {
-        currencyCode: "USD",
-        symbol: "$",
-        decimal: ".",
-        fractionDigits: 2,
-        group: ",",
-        template:
-          '{{wf {"path":"symbol","type":"PlainText"} }} {{wf {"path":"amount","type":"CommercePrice"} }} {{wf {"path":"currencyCode","type":"PlainText"} }}',
-        hideDecimalForWholeNumbers: false,
-      };
-    </script>
+    <script async src="js/finsweetCookie.js" fs-cc-mode="opt-in"></script>
+    <!-- [Attributes by Finsweet] Copy to clipboard -->
+    <script defer src="js/attributesByFinsweet.js"></script>
+    <link rel="stylesheet" href="./css/costume.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body class="new_body">
     <div class="spt_main">
@@ -180,117 +96,13 @@
         >
           <div class="nav-container">
             <div class="nav-wrapper">
-              <a href="index.html" class="nav-logo-link w-inline-block"
-                ><div class="logo_svg w-embed">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
-                    height="auto"
-                    viewBox="0 0 1024 325"
-                    fill="none"
-                  >
-                    <path
-                      d="M149.096 111.735L205.581 151.683L141.942 202.266C164.696 181.509 120.928 156.894 149.096 111.735Z"
-                      fill="#00A4DD"
-                    />
-                    <path
-                      d="M110.218 324.828L255.276 189.724C258.469 186.751 258.02 181.572 254.368 179.196L149.267 111.852C181.877 158.886 179.346 164.129 146.491 197.63C115.974 228.745 114.788 229.288 102.957 242.608C69.9843 279.701 110.218 324.828 110.218 324.828Z"
-                      fill="url(#paint0_linear_430_487)"
-                    />
-                    <path
-                      d="M108.319 213.094L51.833 173.146L115.473 122.563C92.7289 143.331 136.497 167.935 108.319 213.094Z"
-                      fill="#FFBE08"
-                    />
-                    <path
-                      d="M147.196 0L2.138 135.104C-1.05466 138.077 -0.60619 143.256 3.04561 145.632L106.396 213.083C73.786 166.048 78.0571 160.699 110.923 127.198C141.44 96.0828 142.626 95.5393 154.457 82.2197C187.44 45.127 147.196 0 147.196 0Z"
-                      fill="url(#paint1_linear_430_487)"
-                    />
-                    <path
-                      d="M295.554 185.414L307.535 171.136C315.191 177.22 323.733 180.438 332.713 180.438C338.479 180.438 341.586 178.446 341.586 175.121V174.897C341.586 171.69 339.034 169.921 328.495 167.481C311.966 163.719 299.217 159.073 299.217 143.132V142.909C299.217 128.523 310.642 118.113 329.275 118.113C342.472 118.113 352.787 121.651 361.223 128.406L350.459 143.569C343.359 138.593 335.596 135.929 328.719 135.929C323.509 135.929 320.957 138.146 320.957 140.905V141.129C320.957 144.667 323.615 146.223 334.379 148.652C352.232 152.531 363.326 158.285 363.326 172.787V173.011C363.326 188.846 350.79 198.255 331.933 198.255C318.18 198.255 305.089 193.939 295.554 185.414Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M373.747 119.433H396.491L415.017 149.429L433.543 119.433H456.286V196.921H434.877V152.423L415.027 182.749H414.579L394.836 152.636V196.91H373.758V119.433H373.747Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M496.862 118.878H517.609L550.668 196.921H527.593L521.934 183.079H491.982L486.441 196.921H463.814L496.862 118.878ZM515.719 166.371L507.07 144.345L498.304 166.371H515.719Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M558.195 119.433H594.906C606.779 119.433 614.98 122.533 620.201 127.851C624.75 132.283 627.078 138.251 627.078 145.891V146.115C627.078 157.964 620.757 165.817 611.104 169.909L629.63 196.921H604.783L589.14 173.457H588.915H579.711V196.921H558.195V119.433V119.433ZM593.913 156.632C601.238 156.632 605.445 153.094 605.445 147.447V147.223C605.445 141.138 601.003 138.038 593.795 138.038H579.711V156.632H593.913Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M656.912 138.251H633.624V119.433H701.726V138.251H678.428V196.921H656.912V138.251Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M743.316 172.019H727.898V196.921H714.251V119.433H744.865C762.942 119.433 774.367 129.62 774.367 145.443C774.378 162.94 760.401 172.019 743.316 172.019ZM743.765 131.836H727.898V159.733H743.765C754.08 159.733 760.518 154.085 760.518 145.784C760.518 136.588 753.973 131.836 743.765 131.836Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M838.156 196.921L819.075 169.909H801.99V196.921H788.344V119.433H822.951C840.804 119.433 851.791 128.842 851.791 144.005C851.791 156.845 844.135 164.592 833.266 167.586L854.226 196.921H838.156V196.921ZM821.851 131.836H801.99V157.847H821.958C831.717 157.847 837.932 152.753 837.932 144.783C837.932 136.258 831.942 131.836 821.851 131.836Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M905.587 198.255C881.743 198.255 865.097 180.214 865.097 158.296C865.097 136.377 881.957 118.113 905.8 118.113C929.644 118.113 946.291 136.153 946.291 158.072C946.291 179.991 929.441 198.255 905.587 198.255ZM905.587 130.612C890.168 130.612 879.405 142.898 879.405 158.061C879.405 173.224 890.392 185.734 905.8 185.734C921.209 185.734 931.982 173.448 931.982 158.285C931.993 143.122 921.006 130.612 905.587 130.612Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M991.884 172.019H976.466V196.921H962.819V119.433H993.433C1011.51 119.433 1022.94 129.62 1022.94 145.443C1022.94 162.94 1008.97 172.019 991.884 172.019ZM992.322 131.836H976.466V159.733H992.322C1002.64 159.733 1009.08 154.085 1009.08 145.784C1009.08 136.588 1002.53 131.836 992.322 131.836Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M324.019 252.808H317.559V222.333H305.984V216.408H335.594V222.333H324.019V252.808V252.808Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M376.191 252.812L367.222 240.121H359.192V252.812H352.785V216.401H369.047C377.44 216.401 382.598 220.823 382.598 227.952C382.598 233.983 378.999 237.628 373.895 239.034L383.751 252.823H376.191V252.812ZM368.524 222.23H359.192V234.452H368.578C373.158 234.452 376.084 232.055 376.084 228.314C376.084 224.308 373.265 222.23 368.524 222.23Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M435.805 252.81H429.025L425.32 244.019H408.064L404.316 252.81H397.75L413.798 216.144H419.735L435.805 252.81ZM416.681 223.784L410.424 238.351H422.981L416.681 223.784Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M466.087 252.812H452.483V216.401H466.087C477.555 216.401 485.478 224.255 485.478 234.559C485.478 244.852 477.555 252.812 466.087 252.812ZM466.087 222.23H458.89V246.994H466.087C473.743 246.994 478.751 241.847 478.751 234.665C478.751 227.483 473.743 222.23 466.087 222.23Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M530.708 222.123H510.068V231.586H528.359V237.308H510.068V247.09H530.965V252.812H503.651V216.401H530.698V222.123H530.708Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M572.395 252.812L563.426 240.121H555.396V252.812H548.989V216.401H565.251C573.644 216.401 578.802 220.823 578.802 227.952C578.802 233.983 575.203 237.628 570.099 239.034L579.955 252.823H572.395V252.812ZM564.739 222.23H555.407V234.452H564.792C569.373 234.452 572.299 232.055 572.299 228.314C572.299 224.308 569.48 222.23 564.739 222.23Z"
-                      fill="currentColor"
-                    />
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear_430_487"
-                        x1="89.9711"
-                        y1="218.339"
-                        x2="257.416"
-                        y2="218.339"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stop-color="#153E6C" />
-                        <stop offset="1" stop-color="#0080B7" />
-                      </linearGradient>
-                      <linearGradient
-                        id="paint1_linear_430_487"
-                        x1="0.00415368"
-                        y1="106.543"
-                        x2="167.449"
-                        y2="106.543"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stop-color="#C5161E" />
-                        <stop offset="1" stop-color="#FBC024" />
-                      </linearGradient>
-                    </defs>
-                  </svg></div
-              ></a>
+              <a
+                href="index.html"
+                aria-current="page"
+                class="nav-logo-link w-inline-block w--current c-logo-text"
+              >
+                Gold Fund Trader
+              </a>
               <nav role="navigation" class="nav-menu w-nav-menu">
                 <a href="affiliate-program.html" class="nav-link w-nav-link"
                   >Affiliate Program</a
@@ -487,61 +299,25 @@
           <div class="grid_3x3 payouts_benefits">
             <div class="payout_benefit_div">
               <div class="payout_benefit_icon w-embed">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="auto"
-                  height="auto"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <g clip-path="url(#clip0_485_22)">
-                    <path
-                      d="M12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2ZM12 4C9.87827 4 7.84344 4.84285 6.34315 6.34315C4.84285 7.84344 4 9.87827 4 12C4 14.1217 4.84285 16.1566 6.34315 17.6569C7.84344 19.1571 9.87827 20 12 20C14.1217 20 16.1566 19.1571 17.6569 17.6569C19.1571 16.1566 20 14.1217 20 12C20 9.87827 19.1571 7.84344 17.6569 6.34315C16.1566 4.84285 14.1217 4 12 4ZM12 6C12.2449 6.00003 12.4813 6.08996 12.6644 6.25272C12.8474 6.41547 12.9643 6.63975 12.993 6.883L13 7V11.586L15.707 14.293C15.8863 14.473 15.9905 14.7144 15.9982 14.9684C16.006 15.2223 15.9168 15.4697 15.7488 15.6603C15.5807 15.8508 15.3464 15.9703 15.0935 15.9944C14.8406 16.0185 14.588 15.9454 14.387 15.79L14.293 15.707L11.293 12.707C11.1376 12.5514 11.0378 12.349 11.009 12.131L11 12V7C11 6.73478 11.1054 6.48043 11.2929 6.29289C11.4804 6.10536 11.7348 6 12 6Z"
-                      fill="currentColor"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_485_22">
-                      <rect width="24" height="24" fill="currentColor" />
-                    </clipPath>
-                  </defs>
-                </svg>
+                <img
+                  src="./img/Red-clock-3d-vector-illustration.png"
+                  alt=""
+                  srcset=""
+                />
               </div>
               <div>Average. Payout Process</div>
               <div class="large_highlight_span">24 Hours</div>
             </div>
             <div class="payout_benefit_div">
               <div class="payout_benefit_icon w-embed">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="auto"
-                  height="auto"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M10.5 8C10.106 8 9.71593 8.0776 9.35195 8.22836C8.98797 8.37913 8.65726 8.6001 8.37868 8.87868C8.1001 9.15726 7.87913 9.48797 7.72836 9.85195C7.5776 10.2159 7.5 10.606 7.5 11C7.5 11.394 7.5776 11.7841 7.72836 12.1481C7.87913 12.512 8.1001 12.8427 8.37868 13.1213C8.65726 13.3999 8.98797 13.6209 9.35195 13.7716C9.71593 13.9224 10.106 14 10.5 14C11.2956 14 12.0587 13.6839 12.6213 13.1213C13.1839 12.5587 13.5 11.7956 13.5 11C13.5 10.2044 13.1839 9.44129 12.6213 8.87868C12.0587 8.31607 11.2956 8 10.5 8ZM9 11C9 10.6022 9.15804 10.2206 9.43934 9.93934C9.72064 9.65804 10.1022 9.5 10.5 9.5C10.8978 9.5 11.2794 9.65804 11.5607 9.93934C11.842 10.2206 12 10.6022 12 11C12 11.3978 11.842 11.7794 11.5607 12.0607C11.2794 12.342 10.8978 12.5 10.5 12.5C10.1022 12.5 9.72064 12.342 9.43934 12.0607C9.15804 11.7794 9 11.3978 9 11ZM2 7.25C2 6.65326 2.23705 6.08097 2.65901 5.65901C3.08097 5.23705 3.65326 5 4.25 5H16.75C17.0455 5 17.3381 5.0582 17.611 5.17127C17.884 5.28434 18.1321 5.45008 18.341 5.65901C18.5499 5.86794 18.7157 6.11598 18.8287 6.38896C18.9418 6.66194 19 6.95453 19 7.25V14.75C19 15.0455 18.9418 15.3381 18.8287 15.611C18.7157 15.884 18.5499 16.1321 18.341 16.341C18.1321 16.5499 17.884 16.7157 17.611 16.8287C17.3381 16.9418 17.0455 17 16.75 17H4.25C3.65326 17 3.08097 16.7629 2.65901 16.341C2.23705 15.919 2 15.3467 2 14.75V7.25ZM4.25 6.5C4.05109 6.5 3.86032 6.57902 3.71967 6.71967C3.57902 6.86032 3.5 7.05109 3.5 7.25V8H4.25C4.44891 8 4.63968 7.92098 4.78033 7.78033C4.92098 7.63968 5 7.44891 5 7.25V6.5H4.25ZM3.5 12.5H4.25C4.84674 12.5 5.41903 12.7371 5.84099 13.159C6.26295 13.581 6.5 14.1533 6.5 14.75V15.5H14.5V14.75C14.5 14.1533 14.7371 13.581 15.159 13.159C15.581 12.7371 16.1533 12.5 16.75 12.5H17.5V9.5H16.75C16.1533 9.5 15.581 9.26295 15.159 8.84099C14.7371 8.41903 14.5 7.84674 14.5 7.25V6.5H6.5V7.25C6.5 7.54547 6.4418 7.83805 6.32873 8.11104C6.21566 8.38402 6.04992 8.63206 5.84099 8.84099C5.63206 9.04992 5.38402 9.21566 5.11104 9.32873C4.83806 9.4418 4.54547 9.5 4.25 9.5H3.5V12.5ZM17.5 8V7.25C17.5 7.05109 17.421 6.86032 17.2803 6.71967C17.1397 6.57902 16.9489 6.5 16.75 6.5H16V7.25C16 7.664 16.336 8 16.75 8H17.5ZM17.5 14H16.75C16.5511 14 16.3603 14.079 16.2197 14.2197C16.079 14.3603 16 14.5511 16 14.75V15.5H16.75C16.9489 15.5 17.1397 15.421 17.2803 15.2803C17.421 15.1397 17.5 14.9489 17.5 14.75V14ZM3.5 14.75C3.5 15.164 3.836 15.5 4.25 15.5H5V14.75C5 14.5511 4.92098 14.3603 4.78033 14.2197C4.63968 14.079 4.44891 14 4.25 14H3.5V14.75ZM4.401 18.5C4.66431 18.9563 5.04315 19.3351 5.4994 19.5984C5.95565 19.8618 6.47321 20.0003 7 20H17.25C17.8738 20 18.4915 19.8771 19.0677 19.6384C19.644 19.3997 20.1677 19.0498 20.6088 18.6088C21.0498 18.1677 21.3997 17.644 21.6384 17.0677C21.8771 16.4915 22 15.8738 22 15.25V10C22.0002 9.47323 21.8616 8.95571 21.5983 8.49948C21.335 8.04324 20.9562 7.66438 20.5 7.401V15.25C20.5 16.112 20.1576 16.9386 19.5481 17.5481C18.9386 18.1576 18.112 18.5 17.25 18.5H4.401Z"
-                    fill="currentColor"
-                  />
-                </svg>
+                <img src="./img/payout-usd.png" alt="" srcset="" />
               </div>
               <div class="text-block-25">Total Amount Paid Out</div>
               <div class="large_highlight_span">$4,367,073.47</div>
             </div>
             <div class="payout_benefit_div">
               <div class="payout_benefit_icon w-embed">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="auto"
-                  height="auto"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M22 2H2C1.73478 2 1.48043 2.10536 1.29289 2.29289C1.10536 2.48043 1 2.73478 1 3V11C1 11.2652 1.10536 11.5196 1.29289 11.7071C1.48043 11.8946 1.73478 12 2 12H5V21C5 21.2652 5.10536 21.5196 5.29289 21.7071C5.48043 21.8946 5.73478 22 6 22H18C18.2652 22 18.5196 21.8946 18.7071 21.7071C18.8946 21.5196 19 21.2652 19 21V12H22C22.2652 12 22.5196 11.8946 22.7071 11.7071C22.8946 11.5196 23 11.2652 23 11V3C23 2.73478 22.8946 2.48043 22.7071 2.29289C22.5196 2.10536 22.2652 2 22 2ZM7 20V18C7.53043 18 8.03914 18.2107 8.41421 18.5858C8.78929 18.9609 9 19.4696 9 20H7ZM17 20H15C15 19.4696 15.2107 18.9609 15.5858 18.5858C15.9609 18.2107 16.4696 18 17 18V20ZM17 16C15.9391 16 14.9217 16.4214 14.1716 17.1716C13.4214 17.9217 13 18.9391 13 20H11C11 18.9391 10.5786 17.9217 9.82843 17.1716C9.07828 16.4214 8.06087 16 7 16V8H17V16ZM21 10H19V7C19 6.73478 18.8946 6.48043 18.7071 6.29289C18.5196 6.10536 18.2652 6 18 6H6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V10H3V4H21V10ZM12 15C12.5933 15 13.1734 14.8241 13.6667 14.4944C14.1601 14.1648 14.5446 13.6962 14.7716 13.1481C14.9987 12.5999 15.0581 11.9967 14.9424 11.4147C14.8266 10.8328 14.5409 10.2982 14.1213 9.87868C13.7018 9.45912 13.1672 9.1734 12.5853 9.05764C12.0033 8.94189 11.4001 9.0013 10.8519 9.22836C10.3038 9.45542 9.83524 9.83994 9.50559 10.3333C9.17595 10.8266 9 11.4067 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15ZM12 11C12.1978 11 12.3911 11.0586 12.5556 11.1685C12.72 11.2784 12.8482 11.4346 12.9239 11.6173C12.9996 11.8 13.0194 12.0011 12.9808 12.1951C12.9422 12.3891 12.847 12.5673 12.7071 12.7071C12.5673 12.847 12.3891 12.9422 12.1951 12.9808C12.0011 13.0194 11.8 12.9996 11.6173 12.9239C11.4346 12.8482 11.2784 12.72 11.1685 12.5556C11.0586 12.3911 11 12.1978 11 12C11 11.7348 11.1054 11.4804 11.2929 11.2929C11.4804 11.1054 11.7348 11 12 11Z"
-                    fill="currentColor"
-                  />
-                </svg>
+                <img src="./img/payment-method.png" alt="" srcset="" />
               </div>
               <div class="text-block-25">Payment Methods</div>
               <div class="div-block-52">
@@ -3149,11 +2925,11 @@
             <div class="countdown-content">
               <div class="wrap-v-regular">
                 <div class="animated-tags">Start Now</div>
-                <h2 id="hours" class="h2_new">
+                <h2 id="hours" class="h2_new white">
                   Ready to Join Our Leaderboard?
                 </h2>
               </div>
-              <p class="paragraph_new discord_width">
+              <p class="paragraph_new discord_width white">
                 Get started on your funded journey today!
               </p>
               <a
@@ -3187,127 +2963,83 @@
           </div>
           <div class="div-block-41">
             <div class="animated-tags">Success Stories</div>
-            <div class="div-block-42">
-              <div
-                style="padding-top: 56.17021276595745%"
-                class="w-embed-youtubevideo youtube-31"
-              >
-                <iframe
-                  src="https://www.youtube.com/embed/Am5Zv6FUrik?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
-                  frameborder="0"
-                  style="
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    pointer-events: auto;
-                  "
-                  allow="autoplay; encrypted-media"
-                  allowfullscreen=""
-                  title="From Side Hustle to Success: The Journey of a Profitable Prop Trader"
-                ></iframe>
+            <div #swiperRef="" class="swiper mySwiperTwo">
+              <div class="sliders-s swiper-wrapper">
+                <div class="each-slider swiper-slide">
+                  <iframe
+                    src="https://www.youtube.com/embed/Am5Zv6FUrik?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen=""
+                    title="From Side Hustle to Success: The Journey of a Profitable Prop Trader"
+                  ></iframe>
+                </div>
+                <div class="each-slider swiper-slide">
+                  <iframe
+                    src="https://www.youtube.com/embed/Am5Zv6FUrik?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen=""
+                    title="From Side Hustle to Success: The Journey of a Profitable Prop Trader"
+                  ></iframe>
+                </div>
+                <div class="each-slider swiper-slide">
+                  <iframe
+                    src="https://www.youtube.com/embed/Am5Zv6FUrik?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen=""
+                    title="From Side Hustle to Success: The Journey of a Profitable Prop Trader"
+                  ></iframe>
+                </div>
+                <div class="each-slider swiper-slide">
+                  <iframe
+                    src="https://www.youtube.com/embed/Am5Zv6FUrik?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen=""
+                    title="From Side Hustle to Success: The Journey of a Profitable Prop Trader"
+                  ></iframe>
+                </div>
+                <div class="each-slider swiper-slide">
+                  <iframe
+                    src="https://www.youtube.com/embed/Am5Zv6FUrik?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen=""
+                    title="From Side Hustle to Success: The Journey of a Profitable Prop Trader"
+                  ></iframe>
+                </div>
+                <div class="each-slider swiper-slide">
+                  <iframe
+                    src="https://www.youtube.com/embed/Am5Zv6FUrik?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen=""
+                    title="From Side Hustle to Success: The Journey of a Profitable Prop Trader"
+                  ></iframe>
+                </div>
+                <div class="each-slider swiper-slide">
+                  <iframe
+                    src="https://www.youtube.com/embed/Am5Zv6FUrik?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen=""
+                    title="From Side Hustle to Success: The Journey of a Profitable Prop Trader"
+                  ></iframe>
+                </div>
+                <div class="each-slider swiper-slide">
+                  <iframe
+                    src="https://www.youtube.com/embed/Am5Zv6FUrik?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen=""
+                    title="From Side Hustle to Success: The Journey of a Profitable Prop Trader"
+                  ></iframe>
+                </div>
               </div>
-              <div
-                style="padding-top: 56.17021276595745%"
-                class="w-embed-youtubevideo youtube-31"
-              >
-                <iframe
-                  src="https://www.youtube.com/embed/MZjsSZAlCcM?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
-                  frameborder="0"
-                  style="
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    pointer-events: auto;
-                  "
-                  allow="autoplay; encrypted-media"
-                  allowfullscreen=""
-                  title="Mastering Markets: The Pro Poker Player Who Conquered the Prop Trading World"
-                ></iframe>
-              </div>
-              <div
-                style="padding-top: 56.17021276595745%"
-                class="w-embed-youtubevideo youtube-31"
-              >
-                <iframe
-                  src="https://www.youtube.com/embed/2O0BROL_4o0?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
-                  frameborder="0"
-                  style="
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    pointer-events: auto;
-                  "
-                  allow="autoplay; encrypted-media"
-                  allowfullscreen=""
-                  title="From Kitchen to Trading Floor: How a Master Chef Became a Top Prop Trader"
-                ></iframe>
-              </div>
-              <div
-                style="padding-top: 56.17021276595745%"
-                class="w-embed-youtubevideo youtube-31"
-              >
-                <iframe
-                  src="https://www.youtube.com/embed/wr5z3k0Kl7s?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
-                  frameborder="0"
-                  style="
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    pointer-events: auto;
-                  "
-                  allow="autoplay; encrypted-media"
-                  allowfullscreen=""
-                  title="20-Year-Old Trading Prodigy Conquers the Market"
-                ></iframe>
-              </div>
-              <div
-                style="padding-top: 56.17021276595745%"
-                class="w-embed-youtubevideo youtube-31"
-              >
-                <iframe
-                  src="https://www.youtube.com/embed/yjS7Rbvdxcs?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
-                  frameborder="0"
-                  style="
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    pointer-events: auto;
-                  "
-                  allow="autoplay; encrypted-media"
-                  allowfullscreen=""
-                  title="From Scoring Goals to Trading: The Incredible Journey of a Footballer Turned Prop Trader"
-                ></iframe>
-              </div>
-              <div
-                style="padding-top: 56.17021276595745%"
-                class="w-embed-youtubevideo youtube-31"
-              >
-                <iframe
-                  src="https://www.youtube.com/embed/w-UhVCxjtnk?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
-                  frameborder="0"
-                  style="
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    pointer-events: auto;
-                  "
-                  allow="autoplay; encrypted-media"
-                  allowfullscreen=""
-                  title="Mastering Math to Dominate Prop Trading: The Genius Behind the Trades"
-                ></iframe>
-              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
           </div>
         </div>
@@ -3316,52 +3048,58 @@
         <div class="container_new">
           <div class="w-layout-grid content-grid-b">
             <div
-              id="w-node-f4d58ee3-acba-d141-d04f-854977e68061-77e6805e"
-              class="div-block-37"
-            >
-              <div
-                class="lottie-animation"
-                data-w-id="f4d58ee3-acba-d141-d04f-854977e68062"
-                data-animation-type="lottie"
-                data-src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65b27486d1d3eaef3fd99b01_XjbrD31yF0.lottie"
-                data-loop="1"
-                data-direction="1"
-                data-autoplay="1"
-                data-is-ix2-target="0"
-                data-renderer="svg"
-                data-default-duration="3.033333333333333"
-                data-duration="0"
-              ></div>
-            </div>
-            <div
               id="w-node-f4d58ee3-acba-d141-d04f-854977e68063-77e6805e"
               class="wrap-v-x-large"
             >
               <div class="animated-tags">Payouts</div>
               <h2 class="h2_new">Payout System</h2>
               <p class="paragraph_new">
-                The default payout ratio for all Smart Prop Trader Traders is
-                set to 75:25, however, an 75% share is not where we draw the
-                line. If you meet the conditions of our Scaling Plan, not only
-                do we increase the balance of your Smart Prop Trader Virtual
-                Account by 25%, the payout ratio will also automatically change
-                to a staggering 95:5! <br />All Smart Prop Trader Traders can
-                request payout on-demand. The payout can be processed just after
-                after four weeks and two weeks for all subsequent payouts, but
-                you also have the ability to choose your own Virtual Profit
-                Split Day, which can be even changed up to three times. In
-                conclusion, we make sure that you will always receive your
-                withdrawal on your most convenient day.
+                The default payout ratio for all Funded Trader Live Accounts is
+                set to 80:20. The trader takes 80% of the profits while the Fund
+                Trader takes 20%.
+                <br />
+                <br />
+                All funded traders can request a payout through their dashboard
+                with Bank transfers or Cryptocurrencies. We make sure you
+                receive your withdrawal.
               </p>
               <a
                 href="https://trader.smartproptrader.com/account/register/"
                 target="_blank"
                 class="button-1 w-inline-block"
-                ><div class="button-1">
+              >
+                <div class="button-1">
                   <div class="button-1_color-wrap">
-                    <div class="button-1_color _1"></div>
-                    <div class="button-1_color _3"></div>
-                    <div class="button-1_color _2"></div>
+                    <div
+                      class="button-1_color _1"
+                      style="
+                        transform: translate3d(79.992%, 0%, 0px)
+                          scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                          rotateZ(0deg) skew(0deg, 0deg);
+                        transform-style: preserve-3d;
+                        will-change: transform;
+                      "
+                    ></div>
+                    <div
+                      class="button-1_color _3"
+                      style="
+                        transform: translate3d(79.992%, 0%, 0px)
+                          scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                          rotateZ(0deg) skew(0deg, 0deg);
+                        transform-style: preserve-3d;
+                        will-change: transform;
+                      "
+                    ></div>
+                    <div
+                      class="button-1_color _2"
+                      style="
+                        transform: translate3d(86.658%, 0%, 0px)
+                          scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                          rotateZ(0deg) skew(0deg, 0deg);
+                        transform-style: preserve-3d;
+                        will-change: transform;
+                      "
+                    ></div>
                     <div class="label">Get Started</div>
                     <div class="icon-regular-2 w-embed">
                       <svg
@@ -3374,33 +3112,42 @@
                         <path
                           d="M12.879 12L9.1665 8.28749L10.227 7.22699L15 12L10.227 16.773L9.1665 15.7125L12.879 12Z"
                           fill="currentColor"
-                        />
+                        ></path>
                       </svg>
                     </div>
                     <div class="button-1_bg"></div>
-                  </div></div
-              ></a>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              id="w-node-f4d58ee3-acba-d141-d04f-854977e68061-77e6805e"
+              class="div-block-37"
+            >
+              <div class="lottie-animation">
+                <img src="./img/payout.png" alt="Payout" srcset="" />
+              </div>
             </div>
           </div>
         </div>
         <div class="spt-bgs new">
           <img
-            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb594a52ff0275b14ecbc4_exp-bg2.svg"
+            src="./img/candlestick-chart.png"
             loading="lazy"
             alt="Yellow Dot - Banner Image"
             class="spt-bgs-place-1"
           /><img
-            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb5bcb69a751b9720e5ce6_exp-bg3.svg"
+            src="./img/exchange-rate.png"
             loading="lazy"
             alt="Orange Curved Line - Banner Image"
             class="spt-bgs-place-3"
           /><img
-            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb5bcb69a751b9720e5ce6_exp-bg3.svg"
+            src="./img/exchange-rate.png"
             loading="lazy"
             alt="Orange Curved Line - Banner Image"
             class="spt-bgs-place-2"
           /><img
-            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb5ce87bce0196cc03f32a_exp-bg5.svg"
+            src="./img/stock.png"
             loading="lazy"
             alt="Blue Curved Line - Banner Image"
             class="spt-bgs-place-4"
@@ -3486,7 +3233,7 @@
                         Best customer service I&#x27;ve ever dealt with. Had a
                         problem with the account and MADHU at customer support
                         not only fixed the problem fast, but went above and
-                        beyond. In my opinion Smart Prop trader is the best..
+                        beyond. In my opinion Gold Fund Trader is the best..
                       </p>
                     </div>
                   </div>
@@ -3797,7 +3544,7 @@
                         </div>
                       </div>
                       <p class="paragraph_new small">
-                        SmartPropTrader is a trusted prop firm! Im having an
+                        GoldFundTrader is a trusted prop firm! Im having an
                         account with them and their support (STEVE) was really
                         helpfull to assist me with my problem! If you are
                         looking for cheapest and trusted firms...
@@ -4371,9 +4118,9 @@
                         </div>
                       </div>
                       <p class="paragraph_new small">
-                        Smart Prop Trader is a very great firm with a very
+                        Gold Fund Trader is a very great firm with a very
                         wonderful customer service and a great support system.
-                        Smart Prop Trader is made for all traders...
+                        Gold Fund Trader is made for all traders...
                       </p>
                     </div>
                   </div>
@@ -4679,9 +4426,9 @@
                         </div>
                       </div>
                       <p class="paragraph_new small">
-                        Smart Prop Trader is a very great firm with a very
+                        Gold Fund Trader is a very great firm with a very
                         wonderful customer service and a great support system.
-                        Smart Prop Trader is made for all traders...
+                        Gold Fund Trader is made for all traders...
                       </p>
                     </div>
                   </div>
@@ -4749,7 +4496,7 @@
         </div>
       </section>
       <section class="section_new pattern_test">
-        <div class="countdown-block">
+        <div class="container_new">
           <div class="countdown-content">
             <div class="wrap-v-regular">
               <div class="animated-tags">Trader Community</div>
@@ -4762,31 +4509,196 @@
             <a
               href="https://discord.com/invite/spt"
               rel="nofollow"
-              data-w-id="138c3abf-faba-43c1-6c42-22bcee296960"
+              data-w-id="5fcab710-86fe-8d5b-e258-7975ed82d25f"
+              style="
+                opacity: 1;
+                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+              "
               target="_blank"
-              class="secondary-button"
-              >Join Discord</a
+              class="secondary-button join_discord"
             >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--ic"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.27 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.03.05c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.52.31-1.07.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.68 1.19 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.02-.01.03-.03.03-.05c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02zM8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12zm6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12z"
+                ></path>
+              </svg>
+              <p>Join Discord</p>
+            </a>
+          </div>
+          <div class="discord-card">
+            <div class="each-card">
+              <div class="top">
+                <h3>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    preserveAspectRatio="xMidYMid meet"
+                    aria-hidden="true"
+                    role="img"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M15.3374 4H9V17H19V7.91694L15.3374 4ZM10.5 15.5V5.5H14.6864L17.5 8.50899V15.5H10.5ZM7.5 7H6V20H15V18.5H7.5V7Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  Daily Gameplans
+                </h3>
+              </div>
+              <div class="bottom">
+                <img src="./img/gameplay.png" width="250px" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="each-card">
+              <div class="top">
+                <h3>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    preserveAspectRatio="xMidYMid meet"
+                    aria-hidden="true"
+                    role="img"
+                  >
+                    <path
+                      d="M17.2249 11.6746C15.858 13.0415 13.642 13.0415 12.2751 11.6746C10.9083 10.3078 10.9083 8.09171 12.2751 6.72488C13.642 5.35804 15.858 5.35804 17.2249 6.72488C18.5917 8.09171 18.5917 10.3078 17.2249 11.6746Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    ></path>
+                    <path
+                      d="M15.2829 12.6592L8 18L6 16L11.2715 8.81165"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    ></path>
+                  </svg>
+                  Market Commentary
+                </h3>
+              </div>
+              <div class="bottom">
+                <img
+                  src="./img/market-commentary.png"
+                  width="250px"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+            <div class="each-card">
+              <div class="top">
+                <h3>
+                  <svg
+                    width="30px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.75 4.75H15.25V13.25H7.5L4.75 16V4.75Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    ></path>
+                    <path
+                      d="M18.75 8V19L16.5 16.75H9"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    ></path>
+                  </svg>
+                  Community Chat
+                </h3>
+              </div>
+              <div class="bottom">
+                <img src="./img/chat.png" width="250px" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="each-card">
+              <div class="top">
+                <h3>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    preserveAspectRatio="xMidYMid meet"
+                    aria-hidden="true"
+                    role="img"
+                  >
+                    <circle cx="12" cy="9" r="1.5" fill="currentColor"></circle>
+                    <path
+                      d="M8.9948 12.0053C8.2257 11.2362 7.75 10.1737 7.75 9.00006C7.75 7.82646 8.2257 6.76396 8.9948 5.99486"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    ></path>
+                    <path
+                      d="M6.87348 14.1266C5.56148 12.8146 4.75 11.0021 4.75 9.00006C4.75 6.99803 5.56148 5.18553 6.87348 3.87354"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    ></path>
+                    <path
+                      d="M17.1265 3.87354C18.4385 5.18553 19.2499 6.99803 19.2499 9.00006C19.2499 11.0021 18.4385 12.8146 17.1265 14.1266"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    ></path>
+                    <path
+                      d="M15.0052 5.99487C15.7743 6.76397 16.25 7.82647 16.25 9.00008C16.25 10.1737 15.7743 11.2362 15.0052 12.0053"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    ></path>
+                    <path
+                      d="M12 14L9 18.25H15L12 14Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    ></path></svg
+                  >Trader Calls
+                </h3>
+              </div>
+              <div class="bottom">
+                <img
+                  src="./img/trader-call.png"
+                  width="250px"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="spt-bgs new">
           <img
-            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb594a52ff0275b14ecbc4_exp-bg2.svg"
+            src="./img/candlestick-chart.png"
             loading="lazy"
             alt="Yellow Dot - Banner Image"
             class="spt-bgs-place-1"
-          /><img
-            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb5bcb69a751b9720e5ce6_exp-bg3.svg"
+          />
+          <img
+            src="./img/exchange-rate.png"
             loading="lazy"
             alt="Orange Curved Line - Banner Image"
             class="spt-bgs-place-3"
-          /><img
-            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb5bcb69a751b9720e5ce6_exp-bg3.svg"
+          />
+          <img
+            src="./img/exchange-rate.png"
             loading="lazy"
             alt="Orange Curved Line - Banner Image"
             class="spt-bgs-place-2"
-          /><img
-            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb5ce87bce0196cc03f32a_exp-bg5.svg"
+          />
+          <img
+            src="./img/stock.png"
             loading="lazy"
             alt="Blue Curved Line - Banner Image"
             class="spt-bgs-place-4"
@@ -4802,117 +4714,13 @@
                 class="footer-main-column"
               >
                 <div class="wrap-v-medium">
-                  <a href="index.html" class="footer-logo-2 w-inline-block"
-                    ><div class="logo_svg w-embed">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="auto"
-                        height="auto"
-                        viewBox="0 0 1024 325"
-                        fill="none"
-                      >
-                        <path
-                          d="M149.096 111.735L205.581 151.683L141.942 202.266C164.696 181.509 120.928 156.894 149.096 111.735Z"
-                          fill="#00A4DD"
-                        />
-                        <path
-                          d="M110.218 324.828L255.276 189.724C258.469 186.751 258.02 181.572 254.368 179.196L149.267 111.852C181.877 158.886 179.346 164.129 146.491 197.63C115.974 228.745 114.788 229.288 102.957 242.608C69.9843 279.701 110.218 324.828 110.218 324.828Z"
-                          fill="url(#paint0_linear_430_487)"
-                        />
-                        <path
-                          d="M108.319 213.094L51.833 173.146L115.473 122.563C92.7289 143.331 136.497 167.935 108.319 213.094Z"
-                          fill="#FFBE08"
-                        />
-                        <path
-                          d="M147.196 0L2.138 135.104C-1.05466 138.077 -0.60619 143.256 3.04561 145.632L106.396 213.083C73.786 166.048 78.0571 160.699 110.923 127.198C141.44 96.0828 142.626 95.5393 154.457 82.2197C187.44 45.127 147.196 0 147.196 0Z"
-                          fill="url(#paint1_linear_430_487)"
-                        />
-                        <path
-                          d="M295.554 185.414L307.535 171.136C315.191 177.22 323.733 180.438 332.713 180.438C338.479 180.438 341.586 178.446 341.586 175.121V174.897C341.586 171.69 339.034 169.921 328.495 167.481C311.966 163.719 299.217 159.073 299.217 143.132V142.909C299.217 128.523 310.642 118.113 329.275 118.113C342.472 118.113 352.787 121.651 361.223 128.406L350.459 143.569C343.359 138.593 335.596 135.929 328.719 135.929C323.509 135.929 320.957 138.146 320.957 140.905V141.129C320.957 144.667 323.615 146.223 334.379 148.652C352.232 152.531 363.326 158.285 363.326 172.787V173.011C363.326 188.846 350.79 198.255 331.933 198.255C318.18 198.255 305.089 193.939 295.554 185.414Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M373.747 119.433H396.491L415.017 149.429L433.543 119.433H456.286V196.921H434.877V152.423L415.027 182.749H414.579L394.836 152.636V196.91H373.758V119.433H373.747Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M496.862 118.878H517.609L550.668 196.921H527.593L521.934 183.079H491.982L486.441 196.921H463.814L496.862 118.878ZM515.719 166.371L507.07 144.345L498.304 166.371H515.719Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M558.195 119.433H594.906C606.779 119.433 614.98 122.533 620.201 127.851C624.75 132.283 627.078 138.251 627.078 145.891V146.115C627.078 157.964 620.757 165.817 611.104 169.909L629.63 196.921H604.783L589.14 173.457H588.915H579.711V196.921H558.195V119.433V119.433ZM593.913 156.632C601.238 156.632 605.445 153.094 605.445 147.447V147.223C605.445 141.138 601.003 138.038 593.795 138.038H579.711V156.632H593.913Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M656.912 138.251H633.624V119.433H701.726V138.251H678.428V196.921H656.912V138.251Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M743.316 172.019H727.898V196.921H714.251V119.433H744.865C762.942 119.433 774.367 129.62 774.367 145.443C774.378 162.94 760.401 172.019 743.316 172.019ZM743.765 131.836H727.898V159.733H743.765C754.08 159.733 760.518 154.085 760.518 145.784C760.518 136.588 753.973 131.836 743.765 131.836Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M838.156 196.921L819.075 169.909H801.99V196.921H788.344V119.433H822.951C840.804 119.433 851.791 128.842 851.791 144.005C851.791 156.845 844.135 164.592 833.266 167.586L854.226 196.921H838.156V196.921ZM821.851 131.836H801.99V157.847H821.958C831.717 157.847 837.932 152.753 837.932 144.783C837.932 136.258 831.942 131.836 821.851 131.836Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M905.587 198.255C881.743 198.255 865.097 180.214 865.097 158.296C865.097 136.377 881.957 118.113 905.8 118.113C929.644 118.113 946.291 136.153 946.291 158.072C946.291 179.991 929.441 198.255 905.587 198.255ZM905.587 130.612C890.168 130.612 879.405 142.898 879.405 158.061C879.405 173.224 890.392 185.734 905.8 185.734C921.209 185.734 931.982 173.448 931.982 158.285C931.993 143.122 921.006 130.612 905.587 130.612Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M991.884 172.019H976.466V196.921H962.819V119.433H993.433C1011.51 119.433 1022.94 129.62 1022.94 145.443C1022.94 162.94 1008.97 172.019 991.884 172.019ZM992.322 131.836H976.466V159.733H992.322C1002.64 159.733 1009.08 154.085 1009.08 145.784C1009.08 136.588 1002.53 131.836 992.322 131.836Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M324.019 252.808H317.559V222.333H305.984V216.408H335.594V222.333H324.019V252.808V252.808Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M376.191 252.812L367.222 240.121H359.192V252.812H352.785V216.401H369.047C377.44 216.401 382.598 220.823 382.598 227.952C382.598 233.983 378.999 237.628 373.895 239.034L383.751 252.823H376.191V252.812ZM368.524 222.23H359.192V234.452H368.578C373.158 234.452 376.084 232.055 376.084 228.314C376.084 224.308 373.265 222.23 368.524 222.23Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M435.805 252.81H429.025L425.32 244.019H408.064L404.316 252.81H397.75L413.798 216.144H419.735L435.805 252.81ZM416.681 223.784L410.424 238.351H422.981L416.681 223.784Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M466.087 252.812H452.483V216.401H466.087C477.555 216.401 485.478 224.255 485.478 234.559C485.478 244.852 477.555 252.812 466.087 252.812ZM466.087 222.23H458.89V246.994H466.087C473.743 246.994 478.751 241.847 478.751 234.665C478.751 227.483 473.743 222.23 466.087 222.23Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M530.708 222.123H510.068V231.586H528.359V237.308H510.068V247.09H530.965V252.812H503.651V216.401H530.698V222.123H530.708Z"
-                          fill="currentColor"
-                        />
-                        <path
-                          d="M572.395 252.812L563.426 240.121H555.396V252.812H548.989V216.401H565.251C573.644 216.401 578.802 220.823 578.802 227.952C578.802 233.983 575.203 237.628 570.099 239.034L579.955 252.823H572.395V252.812ZM564.739 222.23H555.407V234.452H564.792C569.373 234.452 572.299 232.055 572.299 228.314C572.299 224.308 569.48 222.23 564.739 222.23Z"
-                          fill="currentColor"
-                        />
-                        <defs>
-                          <linearGradient
-                            id="paint0_linear_430_487"
-                            x1="89.9711"
-                            y1="218.339"
-                            x2="257.416"
-                            y2="218.339"
-                            gradientUnits="userSpaceOnUse"
-                          >
-                            <stop stop-color="#153E6C" />
-                            <stop offset="1" stop-color="#0080B7" />
-                          </linearGradient>
-                          <linearGradient
-                            id="paint1_linear_430_487"
-                            x1="0.00415368"
-                            y1="106.543"
-                            x2="167.449"
-                            y2="106.543"
-                            gradientUnits="userSpaceOnUse"
-                          >
-                            <stop stop-color="#C5161E" />
-                            <stop offset="1" stop-color="#FBC024" />
-                          </linearGradient>
-                        </defs>
-                      </svg></div
-                  ></a>
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="nav-logo-link w-inline-block w--current c-logo-text"
+                  >
+                    Gold Fund Trader
+                  </a>
                   <p class="paragraph-regular-8">
                     Make The Smart Choice when choosing your next prop firm!
                   </p>
@@ -5110,7 +4918,7 @@
               </div>
             </div>
             <div class="disclaimier_footer">
-              <strong>Disclaimer:</strong> Smart Prop Trader offers clients
+              <strong>Disclaimer:</strong> Gold Fund Trader offers clients
               access exclusively to demo accounts within a simulated trading
               environment. Additionally, the services offered are aimed at
               assessing professional skills. The results of these services are
@@ -5148,11 +4956,10 @@
               listed in the Capital Market Undertakings Act No. 256/2004 Coll.
               The information on this site is not specific to residents in any
               country or jurisdiction where such distribution or use would be
-              contrary to local laws or regulations. Smart Prop Trader LLC is
-              not a broker/dealer and we accept no financial deposits. The
-              website
-              <a target="_blank" href="index.html">SmartPropTrader.com</a> is
-              owned and operated by Smart Prop Trader LLC, a US company
+              contrary to local laws or regulations. Gold Fund Trader LLC is not
+              a broker/dealer and we accept no financial deposits. The website
+              <a target="_blank" href="index.html">goldfundtrader.com</a> is
+              owned and operated by Gold Fund Trader LLC, a US company
               registered at 5830 E. 2nd Street, Casper, WY 82609.
             </div>
           </div>
@@ -5160,7 +4967,7 @@
         <section class="section-legal">
           <div class="legal-container">
             <div class="footnote">
-              ©2024 Smart Prop Trader LLC - All Rights Reserved.
+              ©2024 Gold Fund Trader LLC - All Rights Reserved.
             </div>
             <div class="legal-link-grid">
               <a href="privacy-policy.html" class="footnote text-color-gray-600"
@@ -5493,7 +5300,7 @@
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "Smart Prop Trader",
+        "name": "Gold Fund Trader",
         "url": "https://www.smartproptrader.com/",
         "logo": "https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb32dbf440cdaf788527a7_SMARTPROP_logo.svg",
         "sameAs": [
@@ -5511,7 +5318,7 @@
         "@type": "AggregateRating",
         "itemReviewed": {
           "@type": "Organization",
-          "name": "Smart Prop Trader | Make The Smart Choice!",
+          "name": "Gold Fund Trader | Make The Smart Choice!",
           "logo": "https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb32dbf440cdaf788527a7_SMARTPROP_logo.svg",
           "url": "https://www.smartproptrader.com/",
           "sameAs": "https://www.trustpilot.com/review/smartproptrader.com",
@@ -5645,5 +5452,7 @@
         });
       });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper-sllider-payout.js"></script>
   </body>
 </html>
