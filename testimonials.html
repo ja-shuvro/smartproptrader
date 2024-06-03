@@ -9,40 +9,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Testimonials</title>
-    <meta
-      content="Read what traders say about Smart Prop Trader!"
-      name="description"
-    />
-    <meta content="Testimonials" property="og:title" />
-    <meta
-      content="Read what traders say about Smart Prop Trader!"
-      property="og:description"
-    />
-    <meta
-      content="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/6622a32853033d20e59bc661_Open_Graph_Testimonials.png"
-      property="og:image"
-    />
-    <meta content="Testimonials" property="twitter:title" />
-    <meta
-      content="Read what traders say about Smart Prop Trader!"
-      property="twitter:description"
-    />
-    <meta
-      content="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/6622a32853033d20e59bc661_Open_Graph_Testimonials.png"
-      property="twitter:image"
-    />
-    <meta property="og:type" content="website" />
-    <meta content="summary_large_image" name="twitter:card" />
+
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta
       content="zpE_1y0-rG0s_zOMbI1SCBAK0FNf-dPtG09tU2hULzU"
       name="google-site-verification"
     />
-    <link
-      href="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/css/smart-prop-trader.webflow.988ad3d51.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="./css/main.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript">
       !(function (o, c) {
         var n = c.documentElement,
@@ -67,413 +40,1398 @@
       async=""
       src="https://www.googletagmanager.com/gtag/js?id=G-JPKH3WF053"
     ></script>
-    <script type="text/javascript">
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("set", "developer_id.dZGVlNj", true);
-      gtag("config", "G-JPKH3WF053");
-    </script>
+    <script type="text/javascript" src="./js/dataLayer.js"></script>
     <!-- Light/Dark Toggle JS -->
     <script
       tr-color-vars="background,tbackground,text,colorone,outershadow, colortwo, toggle-offset"
       duration="0.5"
       ease="power1.out"
-      src="https://cdn.jsdelivr.net/gh/timothydesign/scripts@v1.0.1/dark-mode-toggle.js"
+      src="./js/theme.js"
     ></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <style>
-      /*width*/
-      ::-webkit-scrollbar {
-        background: transparent;
-        width: 12px;
-      }
-      /*thumb*/
-      ::-webkit-scrollbar-thumb {
-        background: linear-gradient(90deg, #c5161e 0%, #fbc024 100%);
-        border-style: none;
-        filter: blur(10px);
-        border-radius: 8px;
-      }
-      /*thumb hover*/
-      ::-webkit-scrollbar-thumb:hover {
-        background: linear-gradient(90deg, #1b5aa0 0%, #0080b7 100%);
-      }
-      /*thumb pressed*/
-      ::-webkit-scrollbar-thumb:active {
-        background: linear-gradient(90deg, #1b5aa0 0%, #0080b7 100%);
-      }
-
-      /*animated title tags*/
-      .animated-tags {
-        background-image: -webkit-linear-gradient(125deg, #c5161e, #fbc024);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-animation: hue 8s infinite linear;
-      }
-
-      @-webkit-keyframes hue {
-        from {
-          -webkit-filter: hue-rotate(0deg);
-        }
-        to {
-          -webkit-filter: hue-rotate(-180deg);
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="./css/costume.css" />
 
     <!-- Finsweet Cookie Consent -->
-    <script
-      async
-      src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js"
-      fs-cc-mode="opt-in"
-    ></script>
+    <script async src="js/finsweetCookie.js" fs-cc-mode="opt-in"></script>
     <script
       async
       type="text/javascript"
-      src="https://testimonial.to/js/widget-embed.js"
+      src="./js/testimonial-widget.js"
     ></script>
-    <script type="text/javascript">
-      window.__WEBFLOW_CURRENCY_SETTINGS = {
-        currencyCode: "USD",
-        symbol: "$",
-        decimal: ".",
-        fractionDigits: 2,
-        group: ",",
-        template:
-          '{{wf {"path":"symbol","type":"PlainText"} }} {{wf {"path":"amount","type":"CommercePrice"} }} {{wf {"path":"currencyCode","type":"PlainText"} }}',
-        hideDecimalForWholeNumbers: false,
-      };
-    </script>
+    <script
+      type="text/javascript"
+      src="./js/webflowCurrencySetting.js"
+    ></script>
   </head>
+
   <body class="new_body">
-    <div class="inner_nav_container">
-      <div
-        data-collapse="medium"
-        data-animation="default"
-        data-duration="400"
-        data-easing="ease"
-        data-easing2="ease"
-        role="banner"
-        class="navigation w-nav"
-      >
-        <div class="nav-container">
-          <div class="nav-wrapper">
-            <a href="index.html" class="nav-logo-link w-inline-block"
-              ><div class="logo_svg w-embed">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="auto"
-                  height="auto"
-                  viewBox="0 0 1024 325"
-                  fill="none"
-                >
-                  <path
-                    d="M149.096 111.735L205.581 151.683L141.942 202.266C164.696 181.509 120.928 156.894 149.096 111.735Z"
-                    fill="#00A4DD"
-                  />
-                  <path
-                    d="M110.218 324.828L255.276 189.724C258.469 186.751 258.02 181.572 254.368 179.196L149.267 111.852C181.877 158.886 179.346 164.129 146.491 197.63C115.974 228.745 114.788 229.288 102.957 242.608C69.9843 279.701 110.218 324.828 110.218 324.828Z"
-                    fill="url(#paint0_linear_430_487)"
-                  />
-                  <path
-                    d="M108.319 213.094L51.833 173.146L115.473 122.563C92.7289 143.331 136.497 167.935 108.319 213.094Z"
-                    fill="#FFBE08"
-                  />
-                  <path
-                    d="M147.196 0L2.138 135.104C-1.05466 138.077 -0.60619 143.256 3.04561 145.632L106.396 213.083C73.786 166.048 78.0571 160.699 110.923 127.198C141.44 96.0828 142.626 95.5393 154.457 82.2197C187.44 45.127 147.196 0 147.196 0Z"
-                    fill="url(#paint1_linear_430_487)"
-                  />
-                  <path
-                    d="M295.554 185.414L307.535 171.136C315.191 177.22 323.733 180.438 332.713 180.438C338.479 180.438 341.586 178.446 341.586 175.121V174.897C341.586 171.69 339.034 169.921 328.495 167.481C311.966 163.719 299.217 159.073 299.217 143.132V142.909C299.217 128.523 310.642 118.113 329.275 118.113C342.472 118.113 352.787 121.651 361.223 128.406L350.459 143.569C343.359 138.593 335.596 135.929 328.719 135.929C323.509 135.929 320.957 138.146 320.957 140.905V141.129C320.957 144.667 323.615 146.223 334.379 148.652C352.232 152.531 363.326 158.285 363.326 172.787V173.011C363.326 188.846 350.79 198.255 331.933 198.255C318.18 198.255 305.089 193.939 295.554 185.414Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M373.747 119.433H396.491L415.017 149.429L433.543 119.433H456.286V196.921H434.877V152.423L415.027 182.749H414.579L394.836 152.636V196.91H373.758V119.433H373.747Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M496.862 118.878H517.609L550.668 196.921H527.593L521.934 183.079H491.982L486.441 196.921H463.814L496.862 118.878ZM515.719 166.371L507.07 144.345L498.304 166.371H515.719Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M558.195 119.433H594.906C606.779 119.433 614.98 122.533 620.201 127.851C624.75 132.283 627.078 138.251 627.078 145.891V146.115C627.078 157.964 620.757 165.817 611.104 169.909L629.63 196.921H604.783L589.14 173.457H588.915H579.711V196.921H558.195V119.433V119.433ZM593.913 156.632C601.238 156.632 605.445 153.094 605.445 147.447V147.223C605.445 141.138 601.003 138.038 593.795 138.038H579.711V156.632H593.913Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M656.912 138.251H633.624V119.433H701.726V138.251H678.428V196.921H656.912V138.251Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M743.316 172.019H727.898V196.921H714.251V119.433H744.865C762.942 119.433 774.367 129.62 774.367 145.443C774.378 162.94 760.401 172.019 743.316 172.019ZM743.765 131.836H727.898V159.733H743.765C754.08 159.733 760.518 154.085 760.518 145.784C760.518 136.588 753.973 131.836 743.765 131.836Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M838.156 196.921L819.075 169.909H801.99V196.921H788.344V119.433H822.951C840.804 119.433 851.791 128.842 851.791 144.005C851.791 156.845 844.135 164.592 833.266 167.586L854.226 196.921H838.156V196.921ZM821.851 131.836H801.99V157.847H821.958C831.717 157.847 837.932 152.753 837.932 144.783C837.932 136.258 831.942 131.836 821.851 131.836Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M905.587 198.255C881.743 198.255 865.097 180.214 865.097 158.296C865.097 136.377 881.957 118.113 905.8 118.113C929.644 118.113 946.291 136.153 946.291 158.072C946.291 179.991 929.441 198.255 905.587 198.255ZM905.587 130.612C890.168 130.612 879.405 142.898 879.405 158.061C879.405 173.224 890.392 185.734 905.8 185.734C921.209 185.734 931.982 173.448 931.982 158.285C931.993 143.122 921.006 130.612 905.587 130.612Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M991.884 172.019H976.466V196.921H962.819V119.433H993.433C1011.51 119.433 1022.94 129.62 1022.94 145.443C1022.94 162.94 1008.97 172.019 991.884 172.019ZM992.322 131.836H976.466V159.733H992.322C1002.64 159.733 1009.08 154.085 1009.08 145.784C1009.08 136.588 1002.53 131.836 992.322 131.836Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M324.019 252.808H317.559V222.333H305.984V216.408H335.594V222.333H324.019V252.808V252.808Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M376.191 252.812L367.222 240.121H359.192V252.812H352.785V216.401H369.047C377.44 216.401 382.598 220.823 382.598 227.952C382.598 233.983 378.999 237.628 373.895 239.034L383.751 252.823H376.191V252.812ZM368.524 222.23H359.192V234.452H368.578C373.158 234.452 376.084 232.055 376.084 228.314C376.084 224.308 373.265 222.23 368.524 222.23Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M435.805 252.81H429.025L425.32 244.019H408.064L404.316 252.81H397.75L413.798 216.144H419.735L435.805 252.81ZM416.681 223.784L410.424 238.351H422.981L416.681 223.784Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M466.087 252.812H452.483V216.401H466.087C477.555 216.401 485.478 224.255 485.478 234.559C485.478 244.852 477.555 252.812 466.087 252.812ZM466.087 222.23H458.89V246.994H466.087C473.743 246.994 478.751 241.847 478.751 234.665C478.751 227.483 473.743 222.23 466.087 222.23Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M530.708 222.123H510.068V231.586H528.359V237.308H510.068V247.09H530.965V252.812H503.651V216.401H530.698V222.123H530.708Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M572.395 252.812L563.426 240.121H555.396V252.812H548.989V216.401H565.251C573.644 216.401 578.802 220.823 578.802 227.952C578.802 233.983 575.203 237.628 570.099 239.034L579.955 252.823H572.395V252.812ZM564.739 222.23H555.407V234.452H564.792C569.373 234.452 572.299 232.055 572.299 228.314C572.299 224.308 569.48 222.23 564.739 222.23Z"
-                    fill="currentColor"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear_430_487"
-                      x1="89.9711"
-                      y1="218.339"
-                      x2="257.416"
-                      y2="218.339"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stop-color="#153E6C" />
-                      <stop offset="1" stop-color="#0080B7" />
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear_430_487"
-                      x1="0.00415368"
-                      y1="106.543"
-                      x2="167.449"
-                      y2="106.543"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stop-color="#C5161E" />
-                      <stop offset="1" stop-color="#FBC024" />
-                    </linearGradient>
-                  </defs>
-                </svg></div
-            ></a>
-            <nav role="navigation" class="nav-menu w-nav-menu">
-              <a href="affiliate-program.html" class="nav-link w-nav-link"
-                >Affiliate Program</a
-              ><a
-                href="https://help.smartproptrader.com/en"
-                target="_blank"
-                class="nav-link w-nav-link"
-                >FAQs</a
-              ><a href="about.html" class="nav-link w-nav-link">About</a
-              ><a href="charity.html" class="nav-link w-nav-link">Giving Back</a
-              ><a href="payouts.html" class="nav-link w-nav-link">Payouts</a
-              ><a href="blog.html" class="nav-link w-nav-link">Blog</a
-              ><a
-                href="testimonials.html"
-                aria-current="page"
-                class="nav-link w-nav-link w--current"
-                >Testimonials</a
-              ><a href="contact-us.html" class="nav-link w-nav-link"
-                >Contact Us</a
-              ><a
-                href="https://trader.smartproptrader.com/account/login/"
-                class="nav-link responsive w-nav-link"
-                >Login</a
-              >
-            </nav>
-          </div>
-          <div class="nav-button-group">
-            <div
-              data-hover="true"
-              data-delay="0"
-              class="language-dropdown w-dropdown"
+    <!-- <div id="nav-bar"></div>
+    <script src="./components/navBar.js"></script> -->
+
+    <section
+      data-w-id="5fcab710-86fe-8d5b-e258-7975ed82c887"
+      class="section_new hero hero_two_c"
+    >
+      <div id="nav-bar"></div>
+      <script src="./components/navBar.js"></script>
+
+      <div class="container_large hero-text-c-t">
+        <div class="testimonials-hero-top-text">
+          TRUSTED BY whole trading world
+        </div>
+        <h1 class="testimonials-hero-title">
+          founder of the <br />
+          Modern Prop Trading <br />
+          Industry
+        </h1>
+      </div>
+    </section>
+
+    <section class="section_new testimonials">
+      <div class="container_new">
+        <div class="wrapper-2">
+          <div class="left-wrapper">
+            <div class="animated-tags">Questions</div>
+            <h2 data-w-id="9fcfa843-b400-af4c-6650-ad1e86525be8" class="h2_new">
+              What Our Traders Say
+            </h2>
+            <p
+              data-w-id="9fcfa843-b400-af4c-6650-ad1e86525bea"
+              class="paragraph_new"
             >
-              <div class="language-toggle new w-dropdown-toggle">
-                <div class="flag-1 new"></div>
-              </div>
-              <nav class="language-list new w-dropdown-list">
-                <a
-                  data-lang="en"
-                  href="testimonials.html#googtrans(en|en)"
-                  class="lang-select new w-inline-block"
-                  ><div class="flag-1"></div>
-                  <div>English</div>
-                  <div class="langauge-line-base">
-                    <div class="langauge-line-break"></div></div></a
-                ><a
-                  data-lang="nl"
-                  href="testimonials.html#googtrans(en|nl)"
-                  class="lang-select new w-inline-block"
-                  ><div class="flag-2"></div>
-                  <div>Dutch</div>
-                  <div class="langauge-line-base">
-                    <div class="langauge-line-break"></div></div></a
-                ><a
-                  data-lang="es"
-                  href="testimonials.html#googtrans(en|es)"
-                  class="lang-select new w-inline-block"
-                  ><div class="flag-3"></div>
-                  <div>Spanish</div>
-                  <div class="langauge-line-base">
-                    <div class="langauge-line-break"></div></div></a
-                ><a
-                  data-lang="fr"
-                  href="testimonials.html#googtrans(en|fr)"
-                  class="lang-select new w-inline-block"
-                  ><div class="flag-4"></div>
-                  <div>French</div>
-                  <div class="langauge-line-base">
-                    <div class="langauge-line-break"></div></div></a
-                ><a
-                  data-lang="de"
-                  href="testimonials.html#googtrans(en|de)"
-                  class="lang-select new w-inline-block"
-                  ><div class="flag-4 _5"></div>
-                  <div>German</div>
-                  <div class="langauge-line-base">
-                    <div class="langauge-line-break"></div></div></a
-                ><a
-                  data-lang="sv"
-                  href="testimonials.html#googtrans(en|sv)"
-                  class="lang-select new w-inline-block"
-                  ><div class="flag-4 _6"></div>
-                  <div>Swedish</div>
-                  <div class="langauge-line-base">
-                    <div class="langauge-line-break"></div></div></a
-                ><a
-                  data-lang="zh-CN"
-                  href="testimonials.html#googtrans(en|zh-CN)"
-                  class="lang-select new w-inline-block"
-                  ><div class="flag-4 _7"></div>
-                  <div>Chinese</div>
-                  <div class="langauge-line-base">
-                    <div class="langauge-line-break"></div></div></a
-                ><a
-                  data-lang="pt"
-                  href="testimonials.html#googtrans(en|pt)"
-                  class="lang-select new w-inline-block"
-                  ><div class="flag-4 _8"></div>
-                  <div>Portuguese</div></a
-                >
-              </nav>
-            </div>
-            <a
-              tr-color-toggle=""
-              href="testimonials.html#"
-              class="toggle_wrap w-inline-block"
-              ><div
-                data-w-id="7193df9e-8d18-5363-b7cd-a01f00b3d46a"
-                class="toggle"
-              >
-                <div class="toggle-circle">
-                  <div
-                    data-is-ix2-target="1"
-                    class="toggle-lottie"
-                    data-w-id="7193df9e-8d18-5363-b7cd-a01f00b3d46c"
-                    data-animation-type="lottie"
-                    data-src="https://assets-global.website-files.com/65da995558b734286abb78f8/65da995558b734286abb7950_lf20_cvalozqq.json"
-                    data-loop="0"
-                    data-direction="1"
-                    data-autoplay="0"
-                    data-renderer="svg"
-                    data-default-duration="0.5338671787890117"
-                    data-duration="0"
-                    data-ix2-initial-state="100"
-                  ></div>
-                </div></div
-            ></a>
-            <div class="nav-menu-button w-nav-button">
-              <div class="icon-5 w-icon-nav-menu"></div>
-            </div>
-            <div class="nav-button-wrap">
-              <a
-                href="https://trader.smartproptrader.com/account/login/"
-                target="_blank"
-                class="button-outline-m w-inline-block"
-                ><div class="icon-regular-2 w-embed">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="CurrentColor"
-                  >
-                    <path
-                      d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z"
-                      fill="CurrentColor"
-                    />
-                  </svg>
-                </div>
-                <div>Login</div></a
-              ><a
-                href="https://trader.smartproptrader.com/account/register/"
-                target="_blank"
-                class="button-1 w-inline-block"
-                ><div class="button-1">
-                  <div class="button-1_color-wrap">
-                    <div class="button-1_color _1"></div>
-                    <div class="button-1_color _3"></div>
-                    <div class="button-1_color _2"></div>
-                    <div class="label">Get Started</div>
-                    <div class="icon-regular-2 w-embed">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                      >
-                        <path
-                          d="M12.879 12L9.1665 8.28749L10.227 7.22699L15 12L10.227 16.773L9.1665 15.7125L12.879 12Z"
-                          fill="currentColor"
+              We&#x27;re here to support you on your trading journey.
+            </p>
+          </div>
+          <!-- <a
+            href="https://www.trustpilot.com/review/smartproptrader.com"
+            rel="nofollow"
+            data-w-id="9fcfa843-b400-af4c-6650-ad1e86525bec"
+            target="_blank"
+            class="secondary-button"
+            >View Our Trust Pilot</a
+          > -->
+        </div>
+        <div class="testimonial-carousel-container">
+          <div class="testimonial-carousel-wrap-l">
+            <div class="testimonial-carousel-left">
+              <div class="carousel-group">
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-yellow">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64acfe05748745f772c598ab_zaidfuddin.webp"
+                          loading="lazy"
+                          alt="Zaid Fuddin"
                         />
-                      </svg>
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Chris Mercer</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
                     </div>
-                    <div class="button-1_bg"></div>
-                  </div></div
-              ></a>
+                    <p class="paragraph_new small">
+                      Best customer service I&#x27;ve ever dealt with. Had a
+                      problem with the account and MADHU at customer support not
+                      only fixed the problem fast, but went above and beyond. In
+                      my opinion Gold Fund Trader is the best..
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-green">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64acfe8f2ca618712b14777a_lasmon.webp"
+                          loading="lazy"
+                          alt="Lasmon Siziba - Trader Profile Image"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Lasmon Siziba</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      Really great prop firm. Great support on discord too.
+                      Steve and Aliah were wonderful support staffs, they kept
+                      updating me and working round the clock until my issue was
+                      solved...
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-blue">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64acfebc6e624f03655760b7_mrcardi.webp"
+                          loading="lazy"
+                          alt="Mr Cardi"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4"><strong>Mr Cardi</strong></div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      Newman was my support tech and answered every single 1 of
+                      my questions!!! AMAZING is an understatement. Thank you so
+                      much...
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-blue">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace5cc0486f7df09e89695_73x73.webp"
+                          loading="lazy"
+                          alt="Okwuada Emmanuel Kelly - Trader Avatar Image"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Okwuada Emmanuel Kelly</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      I must say that my experience exceeded all expectations.
+                      This prop firm is truly exceptional in every aspect,
+                      making it an outstanding choice for aspiring traders.
+                      Thanks to ESLA who made all my enquires answered quick.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-purple">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64aced0da0d76af4f2754d70_73x73%20(1).webp"
+                          loading="lazy"
+                          alt="Mohammad Valiyan"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Mohammad Valiyan</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      I needed assist with my account. I purchased an account
+                      back when SPT was not offering unlimited time and I never
+                      opened any trades. Since the new update and the 30 days
+                      inactivity rule was published I had no clue that involves
+                      not started accounts too...
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64aceda1ea05539a1f89a4ba_73x73%20(2).webp"
+                          loading="lazy"
+                          alt="Prasant Limbu - Trader Profile Image"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Prasant Limbu</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      I must say that my experience exceeded all expectations.
+                      This prop firm is truly exceptional in every aspect,
+                      making it an outstanding choice for aspiring traders.
+                      Thanks to ESLA who made all my enquires answered quick.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-group">
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-yellow">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64acfe05748745f772c598ab_zaidfuddin.webp"
+                          loading="lazy"
+                          alt="Zaid Fuddin"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Zaid Fuddin</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      GoldFundTrader is a trusted prop firm! Im having an
+                      account with them and their support (STEVE) was really
+                      helpfull to assist me with my problem! If you are looking
+                      for cheapest and trusted firms...
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-green">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64acfe8f2ca618712b14777a_lasmon.webp"
+                          loading="lazy"
+                          alt="Lasmon Siziba - Trader Profile Image"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Lasmon Siziba</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      Passed phase and phase 2 in 1 day and Steve assisted me
+                      during the verification process and managed to get all my
+                      funded account within a few hours. Really great support. I
+                      Love SPT.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-blue">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64acfebc6e624f03655760b7_mrcardi.webp"
+                          loading="lazy"
+                          alt="Mr Cardi"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4"><strong>Mr Cardi</strong></div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      Fantastic prop firm and very cheap too with the best
+                      rules.... An amazing support team on discord..... Thanks
+                      Steve for helping me with my little challenge.... 5 ⭐
+                      Prop firm
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-blue">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace5cc0486f7df09e89695_73x73.webp"
+                          loading="lazy"
+                          alt="Okwuada Emmanuel Kelly - Trader Avatar Image"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Okwuada Emmanuel Kelly</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      I must say that my experience exceeded all expectations.
+                      This prop firm is truly exceptional in every aspect,
+                      making it an outstanding choice for aspiring traders.
+                      Thanks to ESLA who made all my enquires answered quick.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-purple">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64aced0da0d76af4f2754d70_73x73%20(1).webp"
+                          loading="lazy"
+                          alt="Mohammad Valiyan"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Mohammad Valiyan</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      I needed assist with my account. I purchased an account
+                      back when SPT was not offering unlimited time and I never
+                      opened any trades. Since the new update and the 30 days
+                      inactivity rule was published I had no clue that involves
+                      not started accounts too...
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64aceda1ea05539a1f89a4ba_73x73%20(2).webp"
+                          loading="lazy"
+                          alt="Prasant Limbu - Trader Profile Image"
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Prasant Limbu</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      I must say that my experience exceeded all expectations.
+                      This prop firm is truly exceptional in every aspect,
+                      making it an outstanding choice for aspiring traders.
+                      Thanks to ESLA who made all my enquires answered quick.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-carousel-wrap-r">
+            <div class="testimonial-carousel-right">
+              <div class="carousel-group">
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-yellow">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c086750da81a6bf7d9d46b_Huy-Nguyen.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Huy Nguyen</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      Thank you spt and MADHU &amp; ALIAH and CHRISTIAN for
+                      helping me get my payment quickly. How wonderful. I give
+                      you 5 stars for your fast, dedicated customer support.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-green">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c086ae8af9a70b2841c348_akshay%20nanvatkar.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Lasmon Siziba</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      Thank you spt and Christian for your help to get my payout
+                      quickly. i giving you 5 star coz of your instant customer
+                      support.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-blue">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c086ffc537eb1c032221c4_Fernando%20Ballesteros.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Fernando Ballesteros</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      The support they gave me was slow but concrete is their
+                      responses, they attended to my requests and Mr. Godswill
+                      was very kind.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-blue">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c08724c65b8862405a2c6f_Kelvin%20Shigela.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Kelvin Shigela</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      i had a great response and concern from the customer care
+                      service and all is well now
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-purple">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c0875bb89b613d6b4749df_Nica%20Castro.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Nica Castro</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      One of the best Customer Service exp I ever had. Carlpe is
+                      very patient and resourceful in helping me with payout
+                      withdraw options. Thank you man! keep up the great job!
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c08792dfce11a0392cff8f_Kojo%20Boateng.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Kojo Boateng</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      Gold Fund Trader is a very great firm with a very
+                      wonderful customer service and a great support system.
+                      Gold Fund Trader is made for all traders...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-group">
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-yellow">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c086750da81a6bf7d9d46b_Huy-Nguyen.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Huy Nguyen</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      Thank you spt and MADHU &amp; ALIAH and CHRISTIAN for
+                      helping me get my payment quickly. How wonderful. I give
+                      you 5 stars for your fast, dedicated customer support.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-green">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c086ae8af9a70b2841c348_akshay%20nanvatkar.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Lasmon Siziba</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      Thank you spt and Christian for your help to get my payout
+                      quickly. i giving you 5 star coz of your instant customer
+                      support.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-blue">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c086ffc537eb1c032221c4_Fernando%20Ballesteros.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Fernando Ballesteros</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      The support they gave me was slow but concrete is their
+                      responses, they attended to my requests and Mr. Godswill
+                      was very kind.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-blue">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c08724c65b8862405a2c6f_Kelvin%20Shigela.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Kelvin Shigela</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      i had a great response and concern from the customer care
+                      service and all is well now
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l bg-purple">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c0875bb89b613d6b4749df_Nica%20Castro.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Nica Castro</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      One of the best Customer Service exp I ever had. Carlpe is
+                      very patient and resourceful in helping me with payout
+                      withdraw options. Thank you man! keep up the great job!
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial-carousel-card">
+                  <div class="wrap-v-large">
+                    <div class="testimonial-user-wrapper">
+                      <div class="avatar-l">
+                        <img
+                          src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65c08792dfce11a0392cff8f_Kojo%20Boateng.png"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="action-l-4">
+                          <strong>Kojo Boateng</strong>
+                        </div>
+                        <div class="testimonal-review-stars-s">
+                          <img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          /><img
+                            src="https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/64ace66c7a71edff2df6bac5_trust-pilot.svg"
+                            loading="lazy"
+                            alt="Trust Pilot"
+                            class="trust-pilot-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="paragraph_new small">
+                      Gold Fund Trader is a very great firm with a very
+                      wonderful customer service and a great support system.
+                      Gold Fund Trader is made for all traders...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-overlay">
+            <div class="carousel-code w-embed">
+              <style>
+                .testimonial-carousel-overlay {
+                  pointer-events: none;
+                }
+
+                .testimonial-carousel-left {
+                  animation: carousel-left 33s linear infinite;
+                }
+
+                .testimonial-carousel-right {
+                  animation: carousel-right 33s linear infinite;
+                }
+
+                @keyframes carousel-left {
+                  from {
+                    transform: translateX(0);
+                  }
+
+                  to {
+                    transform: translateX(calc(-50% - 12px));
+                  }
+                }
+
+                @keyframes carousel-right {
+                  from {
+                    transform: translateX(0);
+                  }
+
+                  to {
+                    transform: translateX(calc(50% - 12px));
+                  }
+                }
+              </style>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="section_new no_padding">
-      <div class="w-embed">
-        <div
-          class="testimonial-to-embed"
-          data-url="https://embed-v2.testimonial.to/c/smart-prop-trader?theme=dark&has_wall=yes"
-          data-allow="camera;microphone"
-          data-resize="true"
-        ></div>
+      <div class="spt-bgs new">
+        <img
+          src="./img/candlestick-chart.png"
+          loading="lazy"
+          alt="Yellow Dot - Banner Image"
+          class="spt-bgs-place-1"
+        /><img
+          src="./img/exchange-rate.png"
+          loading="lazy"
+          alt="Orange Curved Line - Banner Image"
+          class="spt-bgs-place-3"
+        /><img
+          src="./img/exchange-rate.png"
+          loading="lazy"
+          alt="Orange Curved Line - Banner Image"
+          class="spt-bgs-place-2"
+        /><img
+          src="./img/stock.png"
+          loading="lazy"
+          alt="Blue Curved Line - Banner Image"
+          class="spt-bgs-place-4"
+        />
       </div>
-      <div class="w-embed w-iframe">
-        <iframe
-          height="800px"
-          id="testimonialto-smart-prop-trader-tag-all-light-animated"
-          src="https://embed-v2.testimonial.to/w/smart-prop-trader?animated=on&theme=light&shadowColor=ffffff&speed=1&tag=all"
-          frameborder="0"
-          scrolling="no"
-          width="100%"
-        ></iframe>
-      </div>
+    </section>
+
+    <!-- <div class="section_new no_padding">
+    <div>
+      <div class="testimonials-hero-top-text">TRUSTED BY whole trading world</div>
+      <h1 class="testimonials-hero-title">founder of the Modern Prop Trading Industry</h1>
+
     </div>
+  </div> -->
+
     <div class="footer">
       <section class="section-small">
         <div class="container_new">
@@ -483,117 +1441,13 @@
               class="footer-main-column"
             >
               <div class="wrap-v-medium">
-                <a href="index.html" class="footer-logo-2 w-inline-block"
-                  ><div class="logo_svg w-embed">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="auto"
-                      height="auto"
-                      viewBox="0 0 1024 325"
-                      fill="none"
-                    >
-                      <path
-                        d="M149.096 111.735L205.581 151.683L141.942 202.266C164.696 181.509 120.928 156.894 149.096 111.735Z"
-                        fill="#00A4DD"
-                      />
-                      <path
-                        d="M110.218 324.828L255.276 189.724C258.469 186.751 258.02 181.572 254.368 179.196L149.267 111.852C181.877 158.886 179.346 164.129 146.491 197.63C115.974 228.745 114.788 229.288 102.957 242.608C69.9843 279.701 110.218 324.828 110.218 324.828Z"
-                        fill="url(#paint0_linear_430_487)"
-                      />
-                      <path
-                        d="M108.319 213.094L51.833 173.146L115.473 122.563C92.7289 143.331 136.497 167.935 108.319 213.094Z"
-                        fill="#FFBE08"
-                      />
-                      <path
-                        d="M147.196 0L2.138 135.104C-1.05466 138.077 -0.60619 143.256 3.04561 145.632L106.396 213.083C73.786 166.048 78.0571 160.699 110.923 127.198C141.44 96.0828 142.626 95.5393 154.457 82.2197C187.44 45.127 147.196 0 147.196 0Z"
-                        fill="url(#paint1_linear_430_487)"
-                      />
-                      <path
-                        d="M295.554 185.414L307.535 171.136C315.191 177.22 323.733 180.438 332.713 180.438C338.479 180.438 341.586 178.446 341.586 175.121V174.897C341.586 171.69 339.034 169.921 328.495 167.481C311.966 163.719 299.217 159.073 299.217 143.132V142.909C299.217 128.523 310.642 118.113 329.275 118.113C342.472 118.113 352.787 121.651 361.223 128.406L350.459 143.569C343.359 138.593 335.596 135.929 328.719 135.929C323.509 135.929 320.957 138.146 320.957 140.905V141.129C320.957 144.667 323.615 146.223 334.379 148.652C352.232 152.531 363.326 158.285 363.326 172.787V173.011C363.326 188.846 350.79 198.255 331.933 198.255C318.18 198.255 305.089 193.939 295.554 185.414Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M373.747 119.433H396.491L415.017 149.429L433.543 119.433H456.286V196.921H434.877V152.423L415.027 182.749H414.579L394.836 152.636V196.91H373.758V119.433H373.747Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M496.862 118.878H517.609L550.668 196.921H527.593L521.934 183.079H491.982L486.441 196.921H463.814L496.862 118.878ZM515.719 166.371L507.07 144.345L498.304 166.371H515.719Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M558.195 119.433H594.906C606.779 119.433 614.98 122.533 620.201 127.851C624.75 132.283 627.078 138.251 627.078 145.891V146.115C627.078 157.964 620.757 165.817 611.104 169.909L629.63 196.921H604.783L589.14 173.457H588.915H579.711V196.921H558.195V119.433V119.433ZM593.913 156.632C601.238 156.632 605.445 153.094 605.445 147.447V147.223C605.445 141.138 601.003 138.038 593.795 138.038H579.711V156.632H593.913Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M656.912 138.251H633.624V119.433H701.726V138.251H678.428V196.921H656.912V138.251Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M743.316 172.019H727.898V196.921H714.251V119.433H744.865C762.942 119.433 774.367 129.62 774.367 145.443C774.378 162.94 760.401 172.019 743.316 172.019ZM743.765 131.836H727.898V159.733H743.765C754.08 159.733 760.518 154.085 760.518 145.784C760.518 136.588 753.973 131.836 743.765 131.836Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M838.156 196.921L819.075 169.909H801.99V196.921H788.344V119.433H822.951C840.804 119.433 851.791 128.842 851.791 144.005C851.791 156.845 844.135 164.592 833.266 167.586L854.226 196.921H838.156V196.921ZM821.851 131.836H801.99V157.847H821.958C831.717 157.847 837.932 152.753 837.932 144.783C837.932 136.258 831.942 131.836 821.851 131.836Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M905.587 198.255C881.743 198.255 865.097 180.214 865.097 158.296C865.097 136.377 881.957 118.113 905.8 118.113C929.644 118.113 946.291 136.153 946.291 158.072C946.291 179.991 929.441 198.255 905.587 198.255ZM905.587 130.612C890.168 130.612 879.405 142.898 879.405 158.061C879.405 173.224 890.392 185.734 905.8 185.734C921.209 185.734 931.982 173.448 931.982 158.285C931.993 143.122 921.006 130.612 905.587 130.612Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M991.884 172.019H976.466V196.921H962.819V119.433H993.433C1011.51 119.433 1022.94 129.62 1022.94 145.443C1022.94 162.94 1008.97 172.019 991.884 172.019ZM992.322 131.836H976.466V159.733H992.322C1002.64 159.733 1009.08 154.085 1009.08 145.784C1009.08 136.588 1002.53 131.836 992.322 131.836Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M324.019 252.808H317.559V222.333H305.984V216.408H335.594V222.333H324.019V252.808V252.808Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M376.191 252.812L367.222 240.121H359.192V252.812H352.785V216.401H369.047C377.44 216.401 382.598 220.823 382.598 227.952C382.598 233.983 378.999 237.628 373.895 239.034L383.751 252.823H376.191V252.812ZM368.524 222.23H359.192V234.452H368.578C373.158 234.452 376.084 232.055 376.084 228.314C376.084 224.308 373.265 222.23 368.524 222.23Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M435.805 252.81H429.025L425.32 244.019H408.064L404.316 252.81H397.75L413.798 216.144H419.735L435.805 252.81ZM416.681 223.784L410.424 238.351H422.981L416.681 223.784Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M466.087 252.812H452.483V216.401H466.087C477.555 216.401 485.478 224.255 485.478 234.559C485.478 244.852 477.555 252.812 466.087 252.812ZM466.087 222.23H458.89V246.994H466.087C473.743 246.994 478.751 241.847 478.751 234.665C478.751 227.483 473.743 222.23 466.087 222.23Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M530.708 222.123H510.068V231.586H528.359V237.308H510.068V247.09H530.965V252.812H503.651V216.401H530.698V222.123H530.708Z"
-                        fill="currentColor"
-                      />
-                      <path
-                        d="M572.395 252.812L563.426 240.121H555.396V252.812H548.989V216.401H565.251C573.644 216.401 578.802 220.823 578.802 227.952C578.802 233.983 575.203 237.628 570.099 239.034L579.955 252.823H572.395V252.812ZM564.739 222.23H555.407V234.452H564.792C569.373 234.452 572.299 232.055 572.299 228.314C572.299 224.308 569.48 222.23 564.739 222.23Z"
-                        fill="currentColor"
-                      />
-                      <defs>
-                        <linearGradient
-                          id="paint0_linear_430_487"
-                          x1="89.9711"
-                          y1="218.339"
-                          x2="257.416"
-                          y2="218.339"
-                          gradientUnits="userSpaceOnUse"
-                        >
-                          <stop stop-color="#153E6C" />
-                          <stop offset="1" stop-color="#0080B7" />
-                        </linearGradient>
-                        <linearGradient
-                          id="paint1_linear_430_487"
-                          x1="0.00415368"
-                          y1="106.543"
-                          x2="167.449"
-                          y2="106.543"
-                          gradientUnits="userSpaceOnUse"
-                        >
-                          <stop stop-color="#C5161E" />
-                          <stop offset="1" stop-color="#FBC024" />
-                        </linearGradient>
-                      </defs>
-                    </svg></div
-                ></a>
+                <a
+                  href="index.html"
+                  aria-current="page"
+                  class="nav-logo-link w-inline-block w--current c-logo-text"
+                >
+                  Gold Fund Trader
+                </a>
                 <p class="paragraph-regular-8">
                   Make The Smart Choice when choosing your next prop firm!
                 </p>
@@ -604,7 +1458,8 @@
                   href="https://twitter.com/SmartPropTrader"
                   target="_blank"
                   class="social-link-border w-inline-block"
-                  ><div class="icon-regular-4 w-embed">
+                >
+                  <div class="icon-regular-4 w-embed">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21"
@@ -616,13 +1471,15 @@
                         d="M3 1.5C1.34531 1.5 0 2.84531 0 4.5V19.5C0 21.1547 1.34531 22.5 3 22.5H18C19.6547 22.5 21 21.1547 21 19.5V4.5C21 2.84531 19.6547 1.5 18 1.5H3ZM16.9266 5.4375L12.0609 10.9969L17.7844 18.5625H13.3031L9.79688 13.9734L5.77969 18.5625H3.55313L8.75625 12.6141L3.26719 5.4375H7.86094L11.0344 9.63281L14.7 5.4375H16.9266ZM15.1547 17.2313L7.19062 6.69844H5.86406L13.9172 17.2313H15.15H15.1547Z"
                         fill="currentColor"
                       />
-                    </svg></div></a
+                    </svg>
+                  </div> </a
                 ><a
                   rel="nofollow"
                   href="https://www.instagram.com/smartproptrader/"
                   target="_blank"
                   class="social-link-border w-inline-block"
-                  ><div class="icon-regular-4 w-embed">
+                >
+                  <div class="icon-regular-4 w-embed">
                     <svg
                       width="24"
                       height="24"
@@ -634,13 +1491,15 @@
                         d="M13.0271 2.00098C14.1525 2.00284 14.7228 2.00879 15.2156 2.02346L15.4097 2.02981C15.6339 2.03778 15.8551 2.04778 16.1218 2.06028C17.1859 2.10944 17.9118 2.27778 18.5493 2.52528C19.2084 2.77944 19.7651 3.12278 20.3209 3.67861C20.8759 4.23444 21.2193 4.79278 21.4743 5.45028C21.7209 6.08694 21.8893 6.81361 21.9393 7.87778C21.9512 8.14444 21.9608 8.36564 21.9687 8.58989L21.975 8.78397C21.9896 9.27672 21.9963 9.8471 21.9984 10.9725L21.9992 11.7182C21.9993 11.8093 21.9993 11.9033 21.9993 12.0003L21.9992 12.2824L21.9986 13.0281C21.9967 14.1535 21.9908 14.7238 21.9761 15.2166L21.9697 15.4107C21.9618 15.6349 21.9518 15.8561 21.9393 16.1228C21.8901 17.1869 21.7209 17.9128 21.4743 18.5503C21.2201 19.2094 20.8759 19.7661 20.3209 20.3219C19.7651 20.8769 19.2059 21.2203 18.5493 21.4753C17.9118 21.7219 17.1859 21.8903 16.1218 21.9403C15.8551 21.9522 15.6339 21.9618 15.4097 21.9697L15.2156 21.976C14.7228 21.9906 14.1525 21.9973 13.0271 21.9994L12.2814 22.0002C12.1903 22.0003 12.0963 22.0003 11.9993 22.0003L11.7172 22.0002L10.9715 21.9996C9.84612 21.9977 9.27574 21.9918 8.78299 21.9771L8.58891 21.9707C8.36466 21.9628 8.14346 21.9528 7.8768 21.9403C6.81263 21.8911 6.08763 21.7219 5.4493 21.4753C4.79096 21.2211 4.23346 20.8769 3.67763 20.3219C3.1218 19.7661 2.7793 19.2069 2.5243 18.5503C2.2768 17.9128 2.1093 17.1869 2.0593 16.1228C2.04742 15.8561 2.03773 15.6349 2.02988 15.4107L2.02359 15.2166C2.00896 14.7238 2.00229 14.1535 2.00013 13.0281L2 10.9725C2.00186 9.8471 2.00781 9.27672 2.02248 8.78397L2.02883 8.58989C2.0368 8.36564 2.0468 8.14444 2.0593 7.87778C2.10846 6.81278 2.2768 6.08778 2.5243 5.45028C2.77846 4.79194 3.1218 4.23444 3.67763 3.67861C4.23346 3.12278 4.7918 2.78028 5.4493 2.52528C6.0868 2.27778 6.8118 2.11028 7.8768 2.06028C8.14346 2.0484 8.36466 2.03871 8.58891 2.03086L8.78299 2.02457C9.27574 2.00994 9.84612 2.00327 10.9715 2.00111L13.0271 2.00098ZM11.9993 7.00028C9.2364 7.00028 6.9993 9.23981 6.9993 12.0003C6.9993 14.7632 9.23883 17.0003 11.9993 17.0003C14.7622 17.0003 16.9993 14.7607 16.9993 12.0003C16.9993 9.23738 14.7597 7.00028 11.9993 7.00028ZM11.9993 9.00028C13.6562 9.00028 14.9993 10.3429 14.9993 12.0003C14.9993 13.6572 13.6566 15.0003 11.9993 15.0003C10.3424 15.0003 8.9993 13.6576 8.9993 12.0003C8.9993 10.3434 10.3419 9.00028 11.9993 9.00028ZM17.2493 5.50028C16.56 5.50028 15.9993 6.06018 15.9993 6.74943C15.9993 7.43867 16.5592 7.99944 17.2493 7.99944C17.9385 7.99944 18.4993 7.43954 18.4993 6.74943C18.4993 6.06018 17.9376 5.49941 17.2493 5.50028Z"
                         fill="CurrentColor"
                       />
-                    </svg></div></a
+                    </svg>
+                  </div> </a
                 ><a
                   rel="nofollow"
                   href="https://www.facebook.com/profile.php?id=61557584386383"
                   target="_blank"
                   class="social-link-border w-inline-block"
-                  ><div class="icon-regular-4 w-embed">
+                >
+                  <div class="icon-regular-4 w-embed">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -652,13 +1511,15 @@
                         d="M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 16.84 5.44 20.87 10 21.8V15H8V12H10V9.5C10 7.57 11.57 6 13.5 6H16V9H14C13.45 9 13 9.45 13 10V12H16V15H13V21.95C18.05 21.45 22 17.19 22 12Z"
                         fill="currentColor"
                       />
-                    </svg></div></a
+                    </svg>
+                  </div> </a
                 ><a
                   rel="nofollow"
                   href="https://www.linkedin.com/company/smart-prop-trader/"
                   target="_blank"
                   class="social-link-border w-inline-block"
-                  ><div class="icon-regular-4 w-embed">
+                >
+                  <div class="icon-regular-4 w-embed">
                     <svg
                       width="24"
                       height="24"
@@ -670,13 +1531,15 @@
                         d="M18.3352 18.339H15.6697V14.1622C15.6697 13.1662 15.6495 11.8845 14.2807 11.8845C12.891 11.8845 12.6787 12.9683 12.6787 14.0887V18.339H10.0132V9.75H12.5737V10.9207H12.6082C12.966 10.2457 13.836 9.53325 15.1357 9.53325C17.8365 9.53325 18.336 11.3108 18.336 13.6245L18.3352 18.339ZM7.00275 8.57475C6.14475 8.57475 5.4555 7.88025 5.4555 7.026C5.4555 6.1725 6.1455 5.47875 7.00275 5.47875C7.85775 5.47875 8.55075 6.1725 8.55075 7.026C8.55075 7.88025 7.857 8.57475 7.00275 8.57475ZM8.33925 18.339H5.66625V9.75H8.33925V18.339ZM19.6687 3H4.32825C3.594 3 3 3.5805 3 4.29675V19.7033C3 20.4202 3.594 21 4.32825 21H19.6665C20.4 21 21 20.4202 21 19.7033V4.29675C21 3.5805 20.4 3 19.6665 3H19.6687Z"
                         fill="CurrentColor"
                       />
-                    </svg></div></a
+                    </svg>
+                  </div> </a
                 ><a
                   rel="nofollow"
                   href="https://www.youtube.com/channel/UCtLLrvj7N5ssEGYSR04cyxg"
                   target="_blank"
                   class="social-link-border w-inline-block"
-                  ><div class="icon-regular-4 w-embed">
+                >
+                  <div class="icon-regular-4 w-embed">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -688,13 +1551,15 @@
                         d="M10 15L15.19 12L10 9V15ZM21.56 7.17C21.69 7.64 21.78 8.27 21.84 9.07C21.91 9.87 21.94 10.56 21.94 11.16L22 12C22 14.19 21.84 15.8 21.56 16.83C21.31 17.73 20.73 18.31 19.83 18.56C19.36 18.69 18.5 18.78 17.18 18.84C15.88 18.91 14.69 18.94 13.59 18.94L12 19C7.81 19 5.2 18.84 4.17 18.56C3.27 18.31 2.69 17.73 2.44 16.83C2.31 16.36 2.22 15.73 2.16 14.93C2.09 14.13 2.06 13.44 2.06 12.84L2 12C2 9.81 2.16 8.2 2.44 7.17C2.69 6.27 3.27 5.69 4.17 5.44C4.64 5.31 5.5 5.22 6.82 5.16C8.12 5.09 9.31 5.06 10.41 5.06L12 5C16.19 5 18.8 5.16 19.83 5.44C20.73 5.69 21.31 6.27 21.56 7.17Z"
                         fill="currentColor"
                       />
-                    </svg></div></a
+                    </svg>
+                  </div> </a
                 ><a
                   rel="nofollow"
                   href="https://discord.com/invite/spt"
                   target="_blank"
                   class="social-link-border w-inline-block"
-                  ><div class="icon-regular-4 w-embed">
+                >
+                  <div class="icon-regular-4 w-embed">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -706,13 +1571,15 @@
                         d="M19.2701 5.33005C17.9401 4.71005 16.5001 4.26005 15.0001 4.00005C14.987 3.99963 14.9739 4.00209 14.9618 4.00728C14.9497 4.01246 14.9389 4.02023 14.9301 4.03005C14.7501 4.36005 14.5401 4.79005 14.4001 5.12005C12.8091 4.88005 11.1911 4.88005 9.60012 5.12005C9.46012 4.78005 9.25012 4.36005 9.06012 4.03005C9.05012 4.01005 9.02012 4.00005 8.99012 4.00005C7.49012 4.26005 6.06012 4.71005 4.72012 5.33005C4.71012 5.33005 4.70012 5.34005 4.69012 5.35005C1.97012 9.42005 1.22012 13.38 1.59012 17.3C1.59012 17.32 1.60012 17.34 1.62012 17.35C3.42012 18.67 5.15012 19.47 6.86012 20C6.89012 20.01 6.92012 20 6.93012 19.98C7.33012 19.43 7.69012 18.85 8.00012 18.24C8.02012 18.2 8.00012 18.16 7.96012 18.15C7.39012 17.93 6.85012 17.67 6.32012 17.37C6.28012 17.35 6.28012 17.29 6.31012 17.26C6.42012 17.18 6.53012 17.09 6.64012 17.01C6.66012 16.99 6.69012 16.99 6.71012 17C10.1501 18.57 13.8601 18.57 17.2601 17C17.2801 16.99 17.3101 16.99 17.3301 17.01C17.4401 17.1 17.5501 17.18 17.6601 17.27C17.7001 17.3 17.7001 17.36 17.6501 17.38C17.1301 17.69 16.5801 17.94 16.0101 18.16C15.9701 18.17 15.9601 18.22 15.9701 18.25C16.2901 18.86 16.6501 19.44 17.0401 19.99C17.0701 20 17.1001 20.01 17.1301 20C18.8501 19.47 20.5801 18.67 22.3801 17.35C22.4001 17.34 22.4101 17.32 22.4101 17.3C22.8501 12.77 21.6801 8.84005 19.3101 5.35005C19.3001 5.34005 19.2901 5.33005 19.2701 5.33005ZM8.52012 14.91C7.49012 14.91 6.63012 13.96 6.63012 12.79C6.63012 11.62 7.47012 10.67 8.52012 10.67C9.58012 10.67 10.4201 11.63 10.4101 12.79C10.4101 13.96 9.57012 14.91 8.52012 14.91ZM15.4901 14.91C14.4601 14.91 13.6001 13.96 13.6001 12.79C13.6001 11.62 14.4401 10.67 15.4901 10.67C16.5501 10.67 17.3901 11.63 17.3801 12.79C17.3801 13.96 16.5501 14.91 15.4901 14.91Z"
                         fill="currentColor"
                       />
-                    </svg></div></a
+                    </svg>
+                  </div> </a
                 ><a
                   rel="nofollow"
                   href="https://www.tiktok.com/@smartproptrader"
                   target="_blank"
                   class="social-link-border w-inline-block"
-                  ><div class="icon-regular-4 w-embed">
+                >
+                  <div class="icon-regular-4 w-embed">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -724,8 +1591,9 @@
                         d="M16.6002 5.82C15.9166 5.03962 15.5399 4.03743 15.5402 3H12.4502V15.4C12.4263 16.071 12.143 16.7066 11.6599 17.1729C11.1768 17.6393 10.5316 17.8999 9.86016 17.9C8.44016 17.9 7.26016 16.74 7.26016 15.3C7.26016 13.58 8.92016 12.29 10.6302 12.82V9.66C7.18016 9.2 4.16016 11.88 4.16016 15.3C4.16016 18.63 6.92016 21 9.85016 21C12.9902 21 15.5402 18.45 15.5402 15.3V9.01C16.7932 9.90985 18.2975 10.3926 19.8402 10.39V7.3C19.8402 7.3 17.9602 7.39 16.6002 5.82Z"
                         fill="currentColor"
                       />
-                    </svg></div
-                ></a>
+                    </svg>
+                  </div>
+                </a>
               </div>
             </div>
             <div
@@ -791,7 +1659,7 @@
             </div>
           </div>
           <div class="disclaimier_footer">
-            <strong>Disclaimer:</strong> Smart Prop Trader offers clients access
+            <strong>Disclaimer:</strong> Gold Fund Trader offers clients access
             exclusively to demo accounts within a simulated trading environment.
             Additionally, the services offered are aimed at assessing
             professional skills. The results of these services are directly
@@ -824,22 +1692,22 @@
             afford to lose.<br />All information on this site is intended solely
             for educational purposes related to trading on financial markets and
             does not serve in any way as investment advice or recommendations.
-            Smart Prop Trader LLC does not provide any of the investment
-            services listed in the Capital Market Undertakings Act No. 256/2004
-            Coll. The information on this site is not specific to residents in
-            any country or jurisdiction where such distribution or use would be
-            contrary to local laws or regulations. Smart Prop Trader LLC is not
-            a broker/dealer and we accept no financial deposits. The website
-            <a target="_blank" href="index.html">SmartPropTrader.com</a> is
-            owned and operated by Smart Prop Trader LLC, a US company registered
-            at 5830 E. 2nd Street, Casper, WY 82609.
+            Gold Fund Trader LLC does not provide any of the investment services
+            listed in the Capital Market Undertakings Act No. 256/2004 Coll. The
+            information on this site is not specific to residents in any country
+            or jurisdiction where such distribution or use would be contrary to
+            local laws or regulations. Gold Fund Trader LLC is not a
+            broker/dealer and we accept no financial deposits. The website
+            <a target="_blank" href="index.html">goldfundtrader.com</a> is owned
+            and operated by Gold Fund Trader LLC, a US company registered at
+            5830 E. 2nd Street, Casper, WY 82609.
           </div>
         </div>
       </section>
       <section class="section-legal">
         <div class="legal-container">
           <div class="footnote">
-            ©2024 Smart Prop Trader LLC - All Rights Reserved.
+            ©2024 Gold Fund Trader LLC - All Rights Reserved.
           </div>
           <div class="legal-link-grid">
             <a href="privacy-policy.html" class="footnote text-color-gray-600"
@@ -912,7 +1780,7 @@
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "Smart Prop Trader",
+        "name": "Gold Fund Trader",
         "url": "https://www.smartproptrader.com/",
         "logo": "https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb32dbf440cdaf788527a7_SMARTPROP_logo.svg",
         "sameAs": [
@@ -930,7 +1798,7 @@
         "@type": "AggregateRating",
         "itemReviewed": {
           "@type": "Organization",
-          "name": "Smart Prop Trader | Make The Smart Choice!",
+          "name": "Gold Fund Trader | Make The Smart Choice!",
           "logo": "https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/61fb32dbf440cdaf788527a7_SMARTPROP_logo.svg",
           "url": "https://www.smartproptrader.com/",
           "sameAs": "https://www.trustpilot.com/review/smartproptrader.com",
