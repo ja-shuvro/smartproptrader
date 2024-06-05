@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+h1 {
+  font-size: 48px !important;
+  font-weight: bold !important;
+}
+h2 {
+  font-size: 48px !important;
+  font-weight: bold !important;
+}
+h3 {
+  font-size: 24px !important;
+  font-weight: bold !important;
+}
+
 /*width*/
 ::-webkit-scrollbar {
   background: transparent;
@@ -70,6 +84,26 @@
   50% {
     transform: translateY(
       -20px
+    ); /* Adjust the value to control the movement distance */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.mission-img {
+  animation: mission-img 5s ease-in-out infinite;
+}
+.img-animation {
+  animation: img-animation 5s ease-in-out infinite;
+}
+
+@keyframes img-animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      -10px
     ); /* Adjust the value to control the movement distance */
   }
   100% {
@@ -328,6 +362,9 @@ img {
 .discord-card .each-card h3 svg {
   color: var(--color--colortwo);
 }
+.spt-3steps-list-item {
+  height: 450px;
+}
 
 @media screen and (max-width: 991px) {
   .discord-card {
@@ -336,6 +373,9 @@ img {
     gap: 1rem;
     margin-top: 3rem;
     justify-content: center;
+  }
+  .spt-3steps-list-item {
+    height: 350px;
   }
 }
 
@@ -630,4 +670,109 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 99%;
+}
+.simple-3-stapes {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.simple-3-stapes .left-wrapper {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.simple-3-stapes .left-wrapper h2,
+.simple-3-stapes .left-wrapper h2 .animated-tags,
+.simple-3-stapes .left-wrapper p {
+  text-align: center;
+}
+.step-btn-started {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+/* .step-card-one::before {
+  content: "";
+  background-image: url(../img/step-card-one.png);
+}
+.step-card-one::before {
+  content: "";
+  background-image: url(../img/step-card-two.png);
+}
+.step-card-one::before {
+  content: "";
+  background-image: url(../img/step-card-three.jpg);
+} */
+.step-card-bg {
+  padding: 0;
+  outline: none !important;
+  position: relative;
+}
+.step-card-bg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.step-card-bg::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: #08080882;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgb(0 0 0 / 97%) 0%,
+    rgba(0, 0, 0, 0.15730042016806722) 100%
+  );
+  border-radius: 16px;
+}
+.everythin-section {
+  display: flex;
+}
+.everythin-section div {
+  position: relative;
+}
+.everythin-section div::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: #08080882;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgb(0 0 0 / 97%) 0%,
+    rgba(0, 0, 0, 0.15730042016806722) 100%
+  );
+  border-radius: 8px;
+}
+
+.key-highlight {
+  outline: none !important;
+}
+.key-highlight::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: #08080882;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgb(0 0 0 / 97%) 0%,
+    rgba(0, 0, 0, 0.15730042016806722) 100%
+  );
+  border-radius: 14px;
 }
