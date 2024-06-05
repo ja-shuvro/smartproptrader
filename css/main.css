@@ -7146,10 +7146,10 @@ a {
   color: var(--z-all--blue-3);
   border-color: #a3a3a3;
 }
-.button-outline-m.w--current {
+/* .button-outline-m.w--current {
   background-color: #344256;
   border-color: #48566a;
-}
+} */
 .button-outline-m.light_theme {
   color: var(--z-all--light-text);
 }
