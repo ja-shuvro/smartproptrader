@@ -7839,11 +7839,14 @@ a {
   display: flex;
 }
 .social-link-border {
-  /* border: 1px solid var(--z-all--lines); */
   color: #030711;
   border-radius: 50px;
   padding: 8px;
   transition: background-color 0.3s;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.4px);
+  -webkit-backdrop-filter: blur(10.4px);
 }
 .social-link-border:hover {
   border-color: var(--color--colortwo);
@@ -10501,7 +10504,7 @@ a {
   }
   .paragraph_new.max_width,
   .h1_hero.max_width {
-    max-width: 575px;
+    /* max-width: 575px; */
   }
   .container_new {
     padding-bottom: 50px;

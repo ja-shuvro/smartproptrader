@@ -356,7 +356,7 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 18px;
+  font-size: 18px !important;
   gap: 0.5rem;
 }
 .discord-card .each-card h3 svg {
@@ -761,6 +761,24 @@ img {
   outline: none !important;
 }
 .key-highlight::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: #08080882;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgb(0 0 0 / 97%) 0%,
+    rgba(0, 0, 0, 0.15730042016806722) 100%
+  );
+  border-radius: 14px;
+}
+.our-value-card {
+}
+.our-value-card::after {
   content: "";
   position: absolute;
   bottom: 0;
