@@ -727,11 +727,7 @@ img {
   width: 100%;
   top: 0;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    0deg,
-    rgb(0 0 0 / 97%) 0%,
-    rgba(0, 0, 0, 0.15730042016806722) 100%
-  );
+  background: linear-gradient(0deg, rgb(0 0 0 / 97%) 0%, rgb(0 0 0 / 51%) 100%);
   border-radius: 16px;
 }
 .everythin-section {
@@ -749,11 +745,7 @@ img {
   width: 100%;
   top: 0;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    0deg,
-    rgb(0 0 0 / 97%) 0%,
-    rgba(0, 0, 0, 0.15730042016806722) 100%
-  );
+  background: linear-gradient(0deg, rgb(0 0 0 / 97%) 0%, rgb(0 0 0 / 51%) 100%);
   border-radius: 8px;
 }
 
@@ -769,11 +761,7 @@ img {
   width: 100%;
   top: 0;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    0deg,
-    rgb(0 0 0 / 97%) 0%,
-    rgba(0, 0, 0, 0.15730042016806722) 100%
-  );
+  background: linear-gradient(0deg, rgb(0 0 0 / 97%) 0%, rgb(0 0 0 / 51%) 100%);
   border-radius: 14px;
 }
 .our-value-card {
@@ -787,10 +775,6 @@ img {
   width: 100%;
   top: 0;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    0deg,
-    rgb(0 0 0 / 97%) 0%,
-    rgba(0, 0, 0, 0.15730042016806722) 100%
-  );
+  background: linear-gradient(0deg, rgb(0 0 0 / 97%) 0%, rgb(0 0 0 / 51%) 100%);
   border-radius: 14px;
 }
