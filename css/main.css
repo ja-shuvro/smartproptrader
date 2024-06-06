@@ -7738,11 +7738,12 @@ a {
       rgba(14, 17, 26, 0.8),
       rgba(14, 17, 26, 0.8)
     ),
-    url(https://assets-global.website-files.com/61fb2aec3d327d299a3d3598/65976507edea317ff819b26d_background_test.webp);
+    url(../img/leader-board.jpg);
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
   margin-top: 48px;
+  height: 585px;
 }
 .footer-grid {
   grid-column-gap: 24px;
@@ -10221,10 +10222,10 @@ a {
   display: flex;
   align-items: flex-start;
 }
+
 .payout_list {
   border: 1px solid var(--color--outershadow);
   background-color: var(--color--tbackground);
-  border-radius: 16px;
   margin-top: 24px;
   padding: 16px;
 }
