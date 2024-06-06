@@ -71,11 +71,13 @@ function colorModeToggle() {
     if (dark) {
       localStorage.setItem("dark-mode", "true");
       htmlElement.classList.add("dark-mode");
+      htmlElement.classList.remove("dark");
       setColors(darkColors, animate);
       togglePressed = "true";
     } else {
       localStorage.setItem("dark-mode", "false");
       htmlElement.classList.remove("dark-mode");
+      htmlElement.classList.add("dark");
       setColors(lightColors, animate);
       togglePressed = "false";
     }
