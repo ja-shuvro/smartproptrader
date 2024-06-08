@@ -1,10 +1,3 @@
-/**
- * Dark Mode Toggle 1.0.1
- * Copyright 2023 Timothy Ricks
- * Released under the MIT License
- * Released on: November 28, 2023
- */
-
 function colorModeToggle() {
   function attr(defaultVal, attrVal) {
     const defaultValType = typeof defaultVal;

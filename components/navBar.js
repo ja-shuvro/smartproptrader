@@ -22,15 +22,14 @@ class="navigation w-nav"
       <a href="affiliate-program.html" class="nav-link w-nav-link"
         >Affiliate Program</a
       ><a
-        href="./faq/en/index.html"
-        target="_blank"
+        href="./faqs.html"
         class="nav-link w-nav-link"
         >FAQs</a
       ><a href="about.html" class="nav-link w-nav-link">About</a
       ><a
         href="charity.html"
         aria-current="page"
-        class="nav-link w-nav-link w--current"
+        class="nav-link w-nav-link"
         >Giving Back</a
       ><a href="payouts.html" class="nav-link w-nav-link">Payouts</a
       ><a href="blog.html" class="nav-link w-nav-link">Blog</a
@@ -134,7 +133,7 @@ class="navigation w-nav"
             class="toggle-lottie"
             data-w-id="7193df9e-8d18-5363-b7cd-a01f00b3d46c"
             data-animation-type="lottie"
-            data-src="https://assets-global.website-files.com/65da995558b734286abb78f8/65da995558b734286abb7950_lf20_cvalozqq.json"
+            data-src="../js/toggle-circle.json"
             data-loop="0"
             data-direction="1"
             data-autoplay="0"
