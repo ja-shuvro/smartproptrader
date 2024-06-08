@@ -783,3 +783,11 @@ img {
   border: 1px solid var(--color--outershadow);
   border-radius: 16px;
 }
+
+.countdown-block.partnership_opp {
+  background-image: linear-gradient(
+      rgba(14, 17, 26, 0.8),
+      rgba(14, 17, 26, 0.8)
+    ),
+    url(../img/childrens.jpg);
+}

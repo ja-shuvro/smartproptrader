@@ -30,6 +30,7 @@
     <!-- [Attributes by Finsweet] Copy to clipboard -->
     <script defer src="js/attributesByFinsweet.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/output.css" />
   </head>
   <body class="new_body">
     <div class="spt_main">
@@ -42,20 +43,20 @@
         <script src="./components/navBar.js"></script>
         
         <div class="container_large">
-          <div class="w-layout-grid header-grid">
+          <div class="">
             <div
               id="w-node-_6fed4a8f-8802-131f-b181-ba19e1469794-f00af4e4"
               class="header-text-wrap"
             >
-              <div class="wrap-v-x-large">
+              <div class="wrap-v-x-large flex flex-col items-center justify-center">
                 <div class="wrap-v-small-2">
-                  <h1 class="h1_hero max_width">
-                    <span class="text_highlight">Our Contributions</span>
+                  <h1 class="h1_hero max_width text-center">
+                    <span class="text_highlight text-center">Our Contributions</span>
                   </h1>
-                  <p class="paragraph_new max_width">
+                  <p class="paragraph_new max_width text-center">
                     We are more than just a tool for advancing your trading
                     career. We are a community dedicated to making a positive
-                    impact in the world.<br />‍<br />We are proud to share with
+                    impact in the world.<br />‍We are proud to share with
                     you some of the amazing ways we have made a difference and
                     contributed to a brighter future for all.
                   </p>
@@ -92,29 +93,7 @@
                 </div>
               </div>
             </div>
-            <div
-              id="w-node-_6fed4a8f-8802-131f-b181-ba19e1469785-f00af4e4"
-              class="header-accent-wrap center"
-            >
-              <img
-                class="spt-about-hero-photo-img"
-                src="./img/childrens.jpg"
-                alt="people jumping"
-                style=" opacity: 1"
-                sizes="(max-width: 1919px) 96vw, 1440px"
-                
-                srcset="
-                  ./img/childrens.jpg  500w,
-                  ./img/childrens.jpg  800w,
-                  ./img/childrens.jpg 1080w,
-                  ./img/childrens.jpg 1600w,
-                  ./img/childrens.jpg 2000w,
-                  ./img/childrens.jpg 2600w,
-                  ./img/childrens.jpg 3200w,
-                  ./img/childrens.jpg 3456w
-                "
-              />
-            </div>
+            
           </div>
         </div>
       </section>
@@ -367,83 +346,41 @@
       </div>
       <section class="section_new no_lines">
         <div class="container_new">
-          <div class="w-layout-grid content-grid-b">
-            <div
-              id="w-node-_8c28d862-eebe-ed10-43e3-6d73fa48e062-f00af4e4"
-              class="div-block-37"
-            >
-              <img
-                src="./img/childrens.jpg"
-                loading="lazy"
-                sizes="(max-width: 991px) 96vw, (max-width: 1919px) 86vw, 1296px"
-                srcset="
-                  ./img/childrens.jpg  500w,
-                  ./img/childrens.jpg  800w,
-                  ./img/childrens.jpg 1080w,
-                  ./img/childrens.jpg 1600w,
-                  ./img/childrens.jpg 2000w,
-                  ./img/childrens.jpg 2600w,
-                  ./img/childrens.jpg 3200w,
-                  ./img/childrens.jpg 3456w
-                "
-                alt=""
-                class="image-34"
-              />
-            </div>
-            <div
-              class="wrap-v-x-large"
-            >
-              <div class="animated-tags">Partnerships</div>
-              <h2 class="h2_new">Partnership Opportunities</h2>
-              <p class="paragraph_new">
-                If you would like to partner up please send us an email.
-              </p>
-              <div class="form-block-2 w-form">
-                <form
-                  id="email-form"
-                  name="email-form"
-                  method="get"
-                  class="form-2"
-                >
-                  <label for="name" class="field-label-4">Name</label
-                  ><input
-                    class="input_design w-input"
-                    maxlength="256"
-                    name="name"
-                    data-name="Name"
-                    placeholder=""
-                    type="text"
-                    id="name"
-                  /><label for="name-2" class="field-label-4"
-                    >Email Address</label
-                  ><input
-                    class="input_design w-input"
-                    maxlength="256"
-                    name="email"
-                    data-name="Email"
-                    placeholder=""
-                    type="email"
-                    id="email"
-                    required=""
-                  /><input
-                    type="submit"
-                    data-wait="Please wait..."
-                    class="submit_button w-button"
-                    value="Submit"
-                  />
-                </form>
-                <div class="w-form-done">
-                  <div>Thank you! Your submission has been received!</div>
-                </div>
-                <div class="w-form-fail">
-                  <div>
-                    Oops! Something went wrong while submitting the form.
+          <div class="countdown-block cta_join partnership_opp">
+                  <div class="countdown-content flex flex-col items-center justify-center">
+                    <div class="wrap-v-regular flex flex-col items-center justify-center">
+                      <div class="animated-tags text-center uppercase">Partnerships</div>
+                      <h2 id="hours" class="h2_new white text-center">
+                        Partnership Opportunities
+                      </h2>
+                    </div>
+                    <p class="paragraph_new discord_width white text-center">
+                      If you would like to partner up please send us an email.
+                    </p>
+                   
+                    <div class="flex items-center justify-center align-middle w-3/5 mt-8">
+
+                      <form class="w-full">
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="text" name="name" id="name" class="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary-color focus:outline-none focus:ring-0 focus:border-primary-color peer" placeholder=" " required />
+                            <label for="name" class="peer-focus:font-medium absolute text-sm text-white dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-primary-color peer-focus:dark:text-primary-color peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="email" name="email" id="email" class="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary-color focus:outline-none focus:ring-0 focus:border-primary-color peer" placeholder=" " required />
+                            <label for="email" class="peer-focus:font-medium absolute text-sm text-white dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-primary-color peer-focus:dark:text-primary-color peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+                        </div>
+  
+                        <div class="flex items-center justify-center">
+
+                          <button type="submit" class="text-white block  bg-gradient-to-br from-primary-color to-secondary-color  font-medium rounded-xl text-base px-16 py-2.5 text-center">Submit</button>
+                        </div>
+                      </form>
+                    </div>
+
                   </div>
                 </div>
+                
               </div>
-            </div>
-          </div>
-        </div>
         <div class="spt-bgs new">
           <img
             src="./img/candlestick-chart.png"
@@ -469,44 +406,26 @@
         </div>
       </section>
       <div class="spt-section">
-        <div class="spt-container">
-          <div class="spt-section-title"></div>
-          <div
-            id="w-node-_5a58a788-232f-f37e-0ad2-c3ecc4704590-f00af4e4"
-            class="bio-div"
-          >
-            <p
-              
-              style=" opacity: 1"
-              class="f-paragraph-regular statistic-text"
-            >
-              <span
-                ><strong class="bold-text text_highlight"
-                  >34 MILLION PEOPLE</strong
-                ><br /></span
-              >In the United States are food insecure<br />
-            </p>
-            <p class="f-paragraph-regular"><br /></p>
-            <p
-              
-              style=" opacity: 1"
-              class="f-paragraph-regular statistic-text"
-            >
-              <strong class="bold-text-2 text_highlight"
-                >9 MILLION CHILDREN</strong
-              >
-              <br />In the United States are food insecure
-            </p>
+        <div class="spt-3steps-list spacing_responsive">
+          <div class="spt-3steps-list-item newest !p-0 h-96 !outline-none relative our-value-card">
+            <img src="./img//34-mill-pe.jpg" alt="Payout" srcset="" class="h-full object-cover rounded-2xl">
+
+            <div class="absolute bottom-0 left-2 pb-8 px-3 z-20">
+              <h3 class="h3 text-white large_highlight_span"><strong>34 Million People</strong></h3>
+              <p class="paragraph_new text-white small mt-3 text-sm">
+                In the United States are food insecure.
+              </p>
+            </div>
           </div>
-          <div class="spt-h-line min-margin"></div>
-          <div class="flex-center-center">
-            <a
-              
-              href="./auth/Account/register/index.html"
-              target="_blank"
-              class="spt-button w-inline-block"
-              ><div class="spt-button-text">Get Started</div></a
-            >
+          <div class="spt-3steps-list-item newest !p-0 h-96 !outline-none relative our-value-card">
+            <img src="./img/9-mill-chil.jpg" alt="Payout" srcset="" class="h-full object-cover rounded-2xl">
+
+            <div class="absolute bottom-0 left-2 pb-8 px-3 z-20">
+              <h3 class="h3 text-white large_highlight_span"><strong>9 Million Children</strong></h3>
+              <p class="paragraph_new text-white small mt-3 text-sm">
+                In the United States are food insecure.
+              </p>
+            </div>
           </div>
         </div>
       </div>
